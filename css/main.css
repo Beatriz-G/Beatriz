@@ -96,8 +96,21 @@ main h2 {
 
 /*****1200 px screens*****/
 @media screen and (min-width: 1200px) {
+    .name, .navigation {
+        width: 60%;
+        
+        
+    }
 
+    header .full-width {
+        justify-content: space-between;
+    }
 
+    header nav {
+        width: 45%;
+    }
 
-
+    header nav ul {
+        justify-content: space-evenly;
+    }
 }
