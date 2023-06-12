@@ -96,21 +96,30 @@ main h2 {
 
 /*****1200 px screens*****/
 @media screen and (min-width: 1200px) {
-    .name, .navigation {
-        width: 60%;
-        
-        
-    }
 
-    header .full-width {
-        justify-content: space-between;
+    .main-header {
+        width: 90%;
     }
-
-    header nav {
-        width: 45%;
+    .name {
+        padding: 15px 10px;
+        font-size: 30px;
+        color: plum;
     }
-
-    header nav ul {
-        justify-content: space-evenly;
+    
+    .navigation {
+        float: right;
+        padding: 15px 30px;
+    }
+    
+    nav ul li {
+        display: inline-block;
+    }
+    
+    nav ul li a {
+        text-transform: uppercase;
+        text-decoration: none;
+        font-size: 18px;
+        color:#828282; 
+        padding-left: 10px;
     }
 }
