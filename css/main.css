@@ -30,12 +30,13 @@ body {
 header .full-width {
     display: flex;
     flex-wrap: wrap;
+    
 }
 
 header h1 {
     width: 100%;
     padding: 10px 0;    
-    font-family: 'Pacifico', cursive;
+    font-family: 'Emblema One', cursive;
     font-size: 60px;
     text-align: center;
     color: #d469a1;
@@ -43,7 +44,7 @@ header h1 {
 
 nav {
     width: 100%;
-    padding: 10px 0 5px 0;
+    
 }
 
 nav ul {
@@ -62,8 +63,7 @@ nav ul li a {
 
 header a:hover {
     color: #d469a1;
-    font-size: 30px;
-    font-family: 'Pacifico', cursive;
+    font-size: 25px;
 }
 
 /*****MAIN*****/
@@ -74,12 +74,10 @@ main h2 {
     width: 80%
 }
 
-
-
 @media screen and (min-width: 760px) {
     header .full-width {
         justify-content: space-between;
-        width: 95%;
+        width: 100%;
     }
 
     header h1 {
@@ -94,19 +92,32 @@ main h2 {
     header nav ul {
         justify-content: space-evenly;
         font-size: 40px;
-
     }
 
     nav {
-        padding: 40px 0;
+        padding: 40px 20px;
     }
 }
 
-
-
-
 /*****1200 px screens*****/
 @media screen and (min-width: 1200px) {
+    
+    header h1 {
+        font-size: 35px;
+        
+    }
+
+    header nav ul {
+        justify-content: space-evenly;
+        font-size: 20px;
+        padding-right: 30px;
+    }
+
+
+
+}
+
+
 
     /*****.main-header {
         width: 90%;
@@ -133,4 +144,3 @@ main h2 {
         color:#828282; 
         padding-left: 10px;
     }*****/
-}
