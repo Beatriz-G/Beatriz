@@ -30,7 +30,6 @@ body {
 header .full-width {
     display: flex;
     flex-wrap: wrap;
-    
 }
 
 header h1 {
