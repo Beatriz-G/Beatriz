@@ -16,8 +16,9 @@ body {
 }
 
 .half-width {
-    width: 600px;
+    width: 30%;
     float: left;
+    padding-left: 70px;
 }
 
 .third-width {
@@ -43,7 +44,6 @@ header h1 {
 
 nav {
     width: 100%;
-    
 }
 
 nav ul {
@@ -63,15 +63,36 @@ nav ul li a {
 header a:hover {
     color: #d469a1;
     font-size: 25px;
+    font-family: 'Emblema One', cursive;
+}
+
+header h2 {
+    text-align: center;
+    font-size: 60px;
+    width: 90%;
+    padding: 0 7%;
 }
 
 /*****MAIN*****/
 
-main h2 {
-    text-align: left;
-    font-size: 40px;
+
+
+/*****ABOUT ME*****/
+#about h2 {
+    font-size: 80px;
     width: 80%
 }
+
+#about .selfie {
+    border-radius: 50%;
+    width: 60%;
+}
+
+
+
+
+
+
 
 @media screen and (min-width: 760px) {
     header .full-width {
@@ -103,13 +124,13 @@ main h2 {
     
     header h1 {
         font-size: 35px;
-        
+        width: 40%;
     }
 
     header nav ul {
         justify-content: space-evenly;
         font-size: 20px;
-        padding-right: 30px;
+        padding-right: 40px;
     }
 
 
