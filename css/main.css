@@ -31,6 +31,7 @@ body {
 header .full-width {
     display: flex;
     flex-wrap: wrap;
+    padding-top: 20px;
 }
 
 header h1 {
@@ -70,26 +71,59 @@ header h2 {
     text-align: center;
     font-size: 60px;
     width: 90%;
-    padding: 0 7%;
+    padding: 8% 7%;
 }
 
 /*****MAIN*****/
 
-
-
 /*****ABOUT ME*****/
+
 #about h2 {
-    font-size: 80px;
-    width: 80%
+    font-size: 90px;
+    font-family: 'Emblema One', cursive;
+    padding: 10px 0;
+    text-align: center;
+    color: #d469a1;
+    border: solid 2px;
 }
 
 #about .selfie {
     border-radius: 50%;
     width: 60%;
+    height: 40%;
+}
+
+/*****PROJECTS*****/
+#projects h2 {
+    font-size: 90px;
+    font-family: 'Emblema One', cursive;
+    padding: 10px 0;
+    text-align: center;
+    color: #d469a1;
+    border: solid 2px;
 }
 
 
 
+/*****SKILLS AND TOOLS*****/
+#skills-tools h2 {
+    font-size: 90px;
+    font-family: 'Emblema One', cursive;
+    padding: 10px 0;
+    text-align: center;
+    color: #d469a1;
+    border: solid 2px;
+}
+
+/*****CONTACT*****/
+#contact h2 {
+    font-size: 90px;
+    font-family: 'Emblema One', cursive;
+    padding: 10px 0;
+    text-align: center;
+    color: #d469a1;
+    border: solid 2px;
+}
 
 
 
