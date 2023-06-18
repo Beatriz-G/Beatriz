@@ -120,6 +120,13 @@ header h2 {
     border: solid 2px;
 }
 
+#projects h4 {
+    font-size: 60px;
+    font-family: 'Emblema One', cursive;
+    color: palevioletred;
+}
+
+
 /*****SKILLS AND TOOLS*****/
 #skills-tools h2 {
     font-size: 90px;
@@ -139,8 +146,6 @@ header h2 {
     color: #d469a1;
     border: solid 2px;
 }
-
-
 
 
 @media screen and (min-width: 760px) {
