@@ -21,11 +21,6 @@ body {
     padding-left: 70px;
 }
 
-.third-width {
-    width: 30%;
-    float: left;
-}
-
 /*****HEADER*****/
 
 header .full-width {
@@ -126,7 +121,31 @@ header h2 {
     color: palevioletred;
 }
 
+.project-piece img {
+    width: 95%;
+}
 
+.project-sections {
+    display: flex;
+    justify-content: center;
+    align-items: flex-start;
+    flex-flow: row wrap;
+    gap: 15px;
+    width: 90%;
+    margin: 25px auto;
+}
+
+.project-piece {
+    width: 70%;
+    max-width: 500px;
+    height: 600px;
+    display: flex;
+    justify-content: space-evenly;
+    flex-direction: column;
+    align-items: center;
+    padding: 20px 20px;
+    border-radius: 18px;
+}
 
 
 /*****SKILLS AND TOOLS*****/
@@ -173,6 +192,10 @@ header h2 {
     nav {
         padding: 40px 20px;
     }
+
+    .project-piece {
+        width: 40%;
+    }
 }
 
 /*****1200 px screens*****/
@@ -187,6 +210,10 @@ header h2 {
         justify-content: space-evenly;
         font-size: 20px;
         padding-right: 40px;
+    }
+
+    .project-piece {
+        width: 25%;
     }
 
     /*****nav {
