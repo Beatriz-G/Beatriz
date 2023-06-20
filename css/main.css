@@ -105,16 +105,18 @@ header h2 {
 #projects h2 {
     font-size: 50px;
     font-family: 'Emblema One', cursive;
-    padding: 10px 0;
+    
     text-align: center;
     color: #d469a1;
     border: solid 2px;
+    margin: 0 auto 20px auto;
 }
 
 #projects h3 {
     font-size: 30px;
     font-family: 'Emblema One', cursive;
     color: palevioletred;
+  
 }
 
 .project-piece img {
@@ -143,11 +145,22 @@ header h2 {
     align-items: center;
     padding: 10px 10px;
     border-radius: 18px;
+    border: 4px double plum;
 }
 
 .project-piece p {
     font-size: 20px;
-    line-height: 30px;
+    line-height: 25px;
+    
+}
+
+.project-piece .skills-header {
+    font-size: 25px;
+    font-family: 'Emblema One', cursive;
+    color: palevioletred;
+    border-bottom: 2px plum solid;
+    margin: 30px auto 0 auto;
+
 }
 
 /*****SKILLS AND TOOLS*****/
