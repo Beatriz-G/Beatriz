@@ -147,6 +147,9 @@ header h2 {
     border-radius: 18px;
 }
 
+.project-piece p {
+    font-size: 15px;
+}
 
 /*****SKILLS AND TOOLS*****/
 #skills-tools h2 {
