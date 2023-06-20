@@ -136,7 +136,7 @@ header h2 {
 .project-piece {
     width: 70%;
     max-width: 800px;
-    height: 500px;
+    height: 700px;
     display: flex;
     justify-content: space-evenly;
     flex-direction: column;
