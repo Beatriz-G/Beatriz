@@ -89,12 +89,7 @@ header h2 {
     border: solid 2px;
 }
 
-#about img {
-    border-radius: 20%;
-    width: 50%;
-    height: 50%;
-    border: double 8px plum; 
-}
+
 
 .responsive {
     width: 100%;
@@ -124,6 +119,8 @@ header h2 {
 
 .project-piece img {
     width: 95%;
+    border: 6px pink solid;
+    border-radius: 20px;
 }
 
 .project-sections {
@@ -138,18 +135,19 @@ header h2 {
 
 .project-piece {
     width: 70%;
-    max-width: 500px;
-    height: 600px;
+    max-width: 800px;
+    height: 500px;
     display: flex;
     justify-content: space-evenly;
     flex-direction: column;
     align-items: center;
-    padding: 20px 20px;
+    padding: 10px 10px;
     border-radius: 18px;
 }
 
 .project-piece p {
-    font-size: 15px;
+    font-size: 20px;
+    line-height: 30px;
 }
 
 /*****SKILLS AND TOOLS*****/
@@ -172,6 +170,12 @@ header h2 {
     border: solid 2px;
 }
 
+#about img {
+    border-radius: 20%;
+    width: 50%;
+    height: 50%;
+    border: double 8px plum; 
+}
 
 @media screen and (min-width: 760px) {
     header .full-width {
