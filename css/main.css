@@ -105,7 +105,6 @@ header h2 {
 #projects h2 {
     font-size: 50px;
     font-family: 'Emblema One', cursive;
-    
     text-align: center;
     color: #d469a1;
     border: solid 2px;
@@ -130,8 +129,8 @@ header h2 {
     justify-content: center;
     align-items: flex-start;
     flex-flow: row wrap;
-    gap: 15px;
-    width: 90%;
+    gap: 25px;
+    width: 100%;
     margin: 25px auto;
 }
 
