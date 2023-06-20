@@ -64,9 +64,10 @@ header a:hover {
 
 header h2 {
     text-align: center;
-    font-size: 60px;
+    font-size: 40px;
     width: 90%;
     padding: 8% 7%;
+    line-height: 120%;
 }
 
 
@@ -180,7 +181,7 @@ header h2 {
 
     header h1 {
         width: 45%;
-        padding: 30px 0;
+        padding: 20px 0;
     }
 
     header nav {
@@ -193,7 +194,7 @@ header h2 {
     }
 
     nav {
-        padding: 40px 20px;
+        padding: 30px 20px;
     }
 
     .project-piece {
@@ -207,12 +208,20 @@ header h2 {
     header h1 {
         font-size: 35px;
         width: 40%;
+        padding-bottom: h1;
     }
 
     header nav ul {
         justify-content: space-evenly;
         font-size: 20px;
         padding-right: 40px;
+        padding-bottom: 10px;
+    }
+
+    header h2 {
+        font-size: 90px;
+        line-height: 120%;
+        padding: 10px;
     }
 
     .project-piece {
