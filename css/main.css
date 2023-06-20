@@ -208,7 +208,8 @@ header h2 {
     header h1 {
         font-size: 35px;
         width: 40%;
-        padding-bottom: h1;
+        padding-bottom: 20px;
+        
     }
 
     header nav ul {
@@ -219,9 +220,10 @@ header h2 {
     }
 
     header h2 {
-        font-size: 90px;
+        font-size: 70px;
         line-height: 120%;
         padding: 10px;
+        padding-left: 40px;
     }
 
     .project-piece {
@@ -230,7 +232,7 @@ header h2 {
 
     #about h2,
     #projects h2,
-    #skills-tools, 
+    #skills-tools h2, 
     #contact h2 {
         font-size: 90px;
     }
