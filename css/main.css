@@ -35,7 +35,7 @@ header h1 {
     font-family: 'Emblema One', cursive;
     font-size: 60px;
     text-align: center;
-    color: #d469a1;
+    color: #fe7f9c;
 }
 
 nav {
@@ -57,7 +57,7 @@ nav ul li a {
 }
 
 header a:hover {
-    color: #d469a1;
+    color: #fe7f9c;
     font-size: 25px;
     font-family: 'Emblema One', cursive;
 }
@@ -85,7 +85,7 @@ header h2 {
     font-family: 'Emblema One', cursive;
     padding: 10px 0;
     text-align: center;
-    color: #d469a1;
+    color: #fe7f9c;
     border: solid 2px;
 }
 
@@ -106,7 +106,7 @@ header h2 {
     font-size: 50px;
     font-family: 'Emblema One', cursive;
     text-align: center;
-    color: #d469a1;
+    color: #fe7f9c;
     border: solid 2px;
     margin: 0 auto 20px auto;
     padding-bottom: 15px;
@@ -169,7 +169,7 @@ header h2 {
     font-family: 'Emblema One', cursive;
     padding: 10px 0;
     text-align: center;
-    color: #d469a1;
+    color: #fe7f9c;
     border: solid 2px;
 }
 
