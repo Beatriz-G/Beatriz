@@ -75,11 +75,6 @@ header h2 {
 
 /*****ABOUT ME*****/
 
-.about-me  {
-    line-height: 40px;
-    text-align: center;
-}
-
 #about h2 {
     font-size: 50px;
     font-family: 'Emblema One', cursive;
@@ -89,12 +84,11 @@ header h2 {
     border: solid 2px;
 }
 
+.about-me  {
+    line-height: 40px;
+    text-align: center;
+}
 
-
-.responsive {
-    width: 100%;
-    height: auto;
-  }
 
 /*****PROJECTS*****/
 
@@ -130,7 +124,7 @@ header h2 {
     justify-content: center;
     align-items: flex-start;
     flex-flow: row wrap;
-    gap: 25px;
+    gap: 35px;
     width: 100%;
     margin: 25px auto;
 }
@@ -151,6 +145,7 @@ header h2 {
 .project-piece p {
     font-size: 20px;
     line-height: 25px;
+    padding: 15px 0;
     
 }
 
@@ -159,7 +154,8 @@ header h2 {
     font-family: 'Emblema One', cursive;
     color: palevioletred;
     border-bottom: 2px plum solid;
-    margin: 30px auto 0 auto;
+    margin: 15px auto 0 auto;
+    
 
 }
 
