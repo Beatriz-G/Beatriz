@@ -4,7 +4,7 @@ body {
     font-family: 'Josefin Sans', sans-serif;
     color: #656660;
     font-size: 25px;
-    background-color: #ecc8db; 
+    background-color: #ffdbe9; 
 }
 
 /*****GRID*****/
@@ -109,6 +109,7 @@ header h2 {
     color: #d469a1;
     border: solid 2px;
     margin: 0 auto 20px auto;
+    padding-bottom: 15px;
 }
 
 #projects h3 {
@@ -144,7 +145,7 @@ header h2 {
     align-items: center;
     padding: 10px 10px;
     border-radius: 18px;
-    border: 4px double plum;
+    border: 4px double #ffb6c1;
 }
 
 .project-piece p {
