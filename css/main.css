@@ -24,6 +24,7 @@ body {
 .third-width {
     width: 30%;
     float: left;
+    padding-left: 20px;
     
 }
 
@@ -170,7 +171,13 @@ header h2 {
     border: solid 2px;
 }
 
-.skills
+.skills ul, 
+.skills2 ul, 
+.tools ul {
+    list-style-type: none;
+    text-decoration: none;
+    
+}
 
 
 /*****CONTACT*****/
@@ -183,7 +190,7 @@ header h2 {
     border: solid 2px;
 }
 
-#about img {
+#contact img {
     border-radius: 20%;
     width: 50%;
     height: 50%;
