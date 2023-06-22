@@ -21,6 +21,12 @@ body {
     padding-left: 70px;
 }
 
+.third-width {
+    width: 30%;
+    float: left;
+    
+}
+
 /*****HEADER*****/
 
 header .full-width {
