@@ -88,7 +88,6 @@ header h2 {
     text-align: center;
 }
 
-
 /*****PROJECTS*****/
 
 #projects {
@@ -144,8 +143,7 @@ header h2 {
 .project-piece p {
     font-size: 20px;
     line-height: 25px;
-    padding: 15px 0;
-    
+    padding: 15px 0;  
 }
 
 .project-piece .skills-header {
@@ -154,8 +152,6 @@ header h2 {
     color: palevioletred;
     border-bottom: 2px plum solid;
     margin: 15px auto 0 auto;
-    
-
 }
 
 /*****SKILLS AND TOOLS*****/
@@ -167,6 +163,7 @@ header h2 {
     color: #fe7f9c;
     border: solid 2px;
 }
+
 
 /*****CONTACT*****/
 #contact h2 {
