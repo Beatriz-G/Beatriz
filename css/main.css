@@ -24,7 +24,8 @@ body {
 .third-width {
     width: 30%;
     float: left;
-    padding-left: 20px;
+    
+    text-align: center;
     
 }
 
@@ -176,6 +177,7 @@ header h2 {
 .tools ul {
     list-style-type: none;
     text-decoration: none;
+    
     
 }
 
