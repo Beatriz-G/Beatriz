@@ -144,7 +144,8 @@ header h2 {
     padding: 10px 20px;
     border-radius: 30px;
     font-size: 20px;
-    background-color: lavender;
+    background-color: pink;
+    border-color: whitesmoke;
     
 }
 .project-piece p {
@@ -155,15 +156,17 @@ header h2 {
 }
 
 .project-piece .skills-header {
-    font-size: 25px;
+    font-size: 20px;
     font-family: 'Emblema One', cursive;
     color: palevioletred;
-    border-bottom: 2px plum solid;
-    margin: 15px auto 0 auto;
+    border-bottom: 1px plum solid;
+    
+    margin: 10px auto 0 auto;
 }
 
  .project-piece .skills-list {
     line-height: 120%;
+    font-size: 17px;
 }
 
 /*****SKILLS AND TOOLS*****/
