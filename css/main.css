@@ -173,8 +173,13 @@ header h2 {
     color: #fe7f9c;
     border: solid 2px;
 }
-/*
 
+.skills ul, 
+.tools ul {
+    list-style-type: none;
+}
+
+/*
 .skills ul, 
 .skills2 ul, 
 .tools ul {
