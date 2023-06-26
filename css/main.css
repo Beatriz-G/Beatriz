@@ -184,7 +184,7 @@ header h2 {
 .skills2 ul, 
 .tools ul {
     list-style-type: none;
-    width: 100%;
+    width: 90%;
     max-width: 200%;
     height: 500%;
     display: flex;
