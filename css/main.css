@@ -21,12 +21,6 @@ body {
     padding-left: 70px;
 }
 
-.third-width {
-    width: 33%;
-    float: left;
-    text-align: center;
-}
-
 /*****HEADER*****/
 
 header .full-width {
@@ -179,13 +173,13 @@ header h2 {
 .tools ul {
     list-style-type: none;
     width: 30%;
-    max-width: 800px;
+    max-width: 200%;
     height: 200px;
     display: flex;
     justify-content: space-evenly;
     flex-direction: column;
     align-items: center;
-    padding: 10px 10px;
+   
 }
 
 /*****skills scroll*****/
