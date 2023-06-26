@@ -174,7 +174,7 @@ header h2 {
     justify-content: center;
     align-items: flex-start;
     flex-flow: row wrap;
-    gap: 35px;
+    gap: 15px;
     width: 100%;
     margin: 25px auto;
 }
@@ -184,7 +184,7 @@ header h2 {
 .skills2 ul, 
 .tools ul {
     list-style-type: none;
-    width: 30%;
+    width: 100%;
     max-width: 200%;
     height: 200px;
     display: flex;
