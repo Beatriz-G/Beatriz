@@ -124,17 +124,18 @@ header h2 {
     gap: 35px;
     width: 100%;
     margin: 25px auto;
+    padding-top: 30px;
 }
 
 .project-piece {
-    width: 70%;
+    width: 60%;
     max-width: 800px;
     height: 700px;
     display: flex;
     justify-content: space-evenly;
     flex-direction: column;
     align-items: center;
-    padding: 10px 10px;
+    padding: 10px 20px;
     border-radius: 18px;
     border: 4px double #ffb6c1;
 }
@@ -146,6 +147,7 @@ header h2 {
     font-size: 20px;
     background-color: pink;
     border-color: whitesmoke;
+    text-align: center;
     
 }
 .project-piece p {
@@ -205,16 +207,6 @@ header h2 {
     line-height: 40px;
     padding: 0 20px;
 }
-
-/*****skills scroll*****/
-
-/*   list-style-type: none;
-    text-decoration: none;
-    display: flex;
-    justify-content: center;
-    align-items: flex-start;
-    flex-flow: row wrap;
-    */
 
 /*****CONTACT*****/
 #contact h2 {
