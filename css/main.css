@@ -139,6 +139,7 @@ header h2 {
     border-radius: 18px;
     border: 4px double #ffb6c1;
 }
+
 .project-button {
     width: 100%;
     color: hotpink;
@@ -148,13 +149,12 @@ header h2 {
     background-color: pink;
     border-color: whitesmoke;
     text-align: center;
-    
 }
+
 .project-piece p {
     font-size: 20px;
     line-height: 28px;
     padding: 15px 0;
-      
 }
 
 .project-piece .skills-header {
@@ -162,7 +162,6 @@ header h2 {
     font-family: 'Emblema One', cursive;
     color: palevioletred;
     border-bottom: 1px plum solid;
-    
     margin: 10px auto 0 auto;
 }
 
@@ -217,17 +216,26 @@ header h2 {
     border: solid 2px;
 }
 
-#contact h3 {
+.img-summary {
+    display: flex;
+    justify-content: center;
+    align-items: flex-start;
+    flex-flow: row wrap;
+    gap: 10px;
+    width: 50%;
+  
+}
+
+.img-summary h3 {
     font-size: 100%;
     text-align: center;
 }
 
-#contact img {
+.img-summary img {
     border-radius: 20%;
-    width: 50%;
-    height: 50%;
+    width: 70%;
+    height: 70%;
     border: double 8px plum; 
-    display: flex;
 }
 
 @media screen and (min-width: 760px) {
