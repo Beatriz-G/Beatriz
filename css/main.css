@@ -221,13 +221,12 @@ header h2 {
     justify-content: center;
     align-items: flex-start;
     flex-flow: row wrap;
-    gap: 35px;
     width: 100%;
-    margin: 25px auto;
-    padding: 5px 5px;
+    margin: 1px auto;
+    padding: 0px 5px;
 }
 
-.img-summary h3 {
+.img-summary p {
     font-size: 90%;
     text-align: center;
     width: 50%;
