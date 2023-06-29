@@ -217,7 +217,7 @@ header h2 {
     border: solid 2px;
 }
 
-.img-summary {
+.summary {
     display: flex;
     justify-content: center;
     align-items: flex-start;
@@ -228,7 +228,7 @@ header h2 {
     text-align: center;
 }
 
-.img-summary p {
+.summary p {
     font-size: 90%;
     text-align: center;
     width: 100%;
@@ -241,7 +241,7 @@ header h2 {
     line-height: 40px;
 }
 
-.img-summary img {
+.summary img {
     border-radius: 100%;
     width: 95%;
     border: double 8px plum; 
@@ -298,12 +298,12 @@ header h2 {
         padding: 5px 5px;
     }
     
-    .summary h3 {
+    .summary p {
         font-size: 90%;
         text-align: center;
         width: 40%;
         max-width: 500px;
-        height: 500%;
+        height: 200%;
         display: flex;
         justify-content: space-evenly;
         flex-direction: column;
