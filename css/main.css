@@ -241,19 +241,6 @@ header h2 {
     line-height: 40px;
 }
 
-/*****
-.summary img {
-    border-radius: 100%;
-    width: 95%;
-    border: double 8px plum; 
-    max-width: 600px;
-    height: 400%;
-    display: flex;
-    justify-content: space-evenly;
-    flex-direction: column;
-    align-items: center;
-}
-*****/
 /*****IMG OVERLAY*****/
 .container {
     position: relative;
@@ -264,7 +251,7 @@ header h2 {
     display: block;
     width: 95%;
     height: auto;
-    border-radius: 90%;
+    border-radius: 95%;
     border: double 9px pink;
 }
 
@@ -298,6 +285,7 @@ header h2 {
 }
 
 @media screen and (min-width: 760px) {
+    /*HEADER*/
     header .full-width {
         justify-content: space-between;
         width: 100%;
@@ -325,9 +313,13 @@ header h2 {
         padding: 30px 20px;
     }
 
+    /*SKILLS AND TOOLS*/
     .project-piece {
         width: 40%;
     }
+
+    /*CONTACT*/
+
 
     /*****CONTACT ME*****/
     .summary {
@@ -341,16 +333,15 @@ header h2 {
         padding: 5px 5px;
     }
     
-    .summary p {
+    .summary  {
         font-size: 90%;
         text-align: center;
         width: 40%;
-        max-width: 500px;
-        height: 200%;
+        height: 400%;
         display: flex;
         justify-content: space-evenly;
         flex-direction: column;
-        align-items: center;
+        align-items: left;
         line-height: 40px;
     }
 }
