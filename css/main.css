@@ -331,15 +331,6 @@ header h2 {
         width: 40%;
         margin: 25px auto;
     }
-    .image {
-        display: flex;
-        justify-content: center;
-        align-items: flex-start;
-        flex-flow: row wrap;
-        gap: 35px;
-        width: 100%;
-        margin: 25px auto;
-    }
 
     /*
     .summary {
