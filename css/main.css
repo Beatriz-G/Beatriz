@@ -278,7 +278,7 @@ header h2 {
     width: 100%;
     opacity: 0;
     transition: .8s ease;
-    background-color: #ffb6c1;
+    background-color: rgb(255, 221, 238);
     border-radius: 90%;
 }
 
