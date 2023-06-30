@@ -278,8 +278,8 @@ header h2 {
     width: 95%;
     opacity: 0;
     transition: .8s ease;
-    background: rgba(0, 0.5, 0, 0.3);
-    border-radius: 90%;
+    background: rgba(238, 182, 182, 0.3);
+    border-radius: 95%;
 }
 
 .container:hover .overlay {
