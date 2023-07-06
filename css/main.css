@@ -52,8 +52,9 @@ nav ul {
 nav ul li a {
     text-transform: uppercase;
     text-decoration: none;
-    font-size: 15px;
+    font-size: 20px;
     color: plum;
+    padding-right: 15px;
 }
 
 header a:hover {
@@ -66,13 +67,15 @@ header h2 {
     text-align: center;
     font-size: 40px;
     width: 90%;
-    padding: 8% 9%;
+    padding: 0 9%;
     line-height: 150%;
 }
 
 header h3 {
     text-align: center;
     font-size: 30px;
+    width: 90%;
+    padding: 0 9%;
 }
 
 /*****MAIN*****/
