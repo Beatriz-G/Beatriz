@@ -70,14 +70,7 @@ header h2 {
     width: 90%;
     padding: 0 9%;
     line-height: 150%;
-    
-}
-
-header h3 {
-    text-align: center;
-    font-size: 30px;
-    width: 90%;
-    padding: 0 9%;
+    font-weight: 900;
 }
 
 /*****MAIN*****/
@@ -96,6 +89,7 @@ header h3 {
 .about-me  {
     line-height: 40px;
     text-align: center;
+    font-size: 20px;
 }
 
 /*****PROJECTS*****/
@@ -324,6 +318,10 @@ header h3 {
         padding: 30px 20px;
     }
 
+
+    .about-me {
+        font-size: 30px;
+    }
     /*SKILLS AND TOOLS*/
     .project-piece {
         width: 40%;
