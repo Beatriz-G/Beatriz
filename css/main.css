@@ -235,7 +235,7 @@ header h2 {
     flex-flow: row wrap;
     width: 100%;
     margin: 1px auto;
-    padding: 0px 5px;
+    padding: 0px 10px;
     text-align: center;
 }
 
@@ -251,6 +251,9 @@ header h2 {
     align-items: center;
     line-height: 40px;
 }
+
+
+
 
 /*****IMG OVERLAY*****/
 .container {
