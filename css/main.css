@@ -78,7 +78,7 @@ header h2 {
 /*****ABOUT ME*****/
 
 #about h2 {
-    font-size: 50px;
+    font-size: 40px;
     font-family: 'Emblema One', cursive;
     padding: 10px 0;
     text-align: center;
@@ -99,13 +99,13 @@ header h2 {
 }
 
 #projects h2 {
-    font-size: 50px;
+    font-size: 40px;
     font-family: 'Emblema One', cursive;
     text-align: center;
     color: #fe7f9c;
     border: solid 2px;
     margin: 0 auto 20px auto;
-    padding-bottom: 15px;
+    padding: 10px 0;
 }
 
 #projects h3 {
@@ -155,6 +155,13 @@ header h2 {
     text-align: center;
 }
 
+.project-button:hover {
+    background: rgba(238, 182, 182, 0.3);;
+    color: hotpink;
+    border: 4px solid pink;
+    font-weight: bolder;
+}
+
 .project-piece p {
     font-size: 20px;
     line-height: 28px;
@@ -162,7 +169,7 @@ header h2 {
 }
 
 .project-piece .skills-header {
-    font-size: 20px;
+    font-size: 18px;
     font-family: 'Emblema One', cursive;
     color: palevioletred;
     border-bottom: 1px plum solid;
@@ -171,12 +178,12 @@ header h2 {
 
  .project-piece .skills-list {
     line-height: 120%;
-    font-size: 17px;
+    font-size: 15px;
 }
 
 /*****SKILLS AND TOOLS*****/
 #skills-tools h2 {
-    font-size: 50px;
+    font-size: 40px;
     font-family: 'Emblema One', cursive;
     padding: 10px 0;
     text-align: center;
@@ -213,7 +220,7 @@ header h2 {
 
 /*****CONTACT*****/
 #contact h2 {
-    font-size: 50px;
+    font-size: 40px;
     font-family: 'Emblema One', cursive;
     padding: 10px 0;
     text-align: center;
@@ -321,7 +328,9 @@ header h2 {
 
     .about-me {
         font-size: 30px;
+        line-height: 45px;
     }
+
     /*SKILLS AND TOOLS*/
     .project-piece {
         width: 40%;
