@@ -219,6 +219,13 @@ header h2 {
 }
 
 /*****CONTACT*****/
+footer {
+    display:flex;
+    justify-content: center;
+    align-items: center;
+    flex-flow: row wrap;
+}
+
 #contact h2 {
     font-size: 40px;
     font-family: 'Emblema One', cursive;
@@ -252,8 +259,21 @@ header h2 {
     line-height: 40px;
 }
 
+.social-icons {
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+}
 
-
+.social-icons p {
+    background-color: plum;
+    border-radius: 50%;
+    width: 40px;
+    height: 40px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  }
 
 /*****IMG OVERLAY*****/
 .container {
