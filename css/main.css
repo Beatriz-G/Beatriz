@@ -265,6 +265,10 @@ footer {
 }
 
 /*****Social Icons*****/
+.icons h3{
+    height: 40%;
+    width: 90%;
+}
 .icons a {
     text-decoration: none;
     color: #C49075;
@@ -272,17 +276,25 @@ footer {
     font-size: 28px;
 }
 
-
 .icons ul {
     list-style: none;
+    width: 50%;
 }
 
 .icons ul li {
     display: inline-block;
+    
 }
 
 .icons ul img {
-    text-align: center;
+    background-color: plum;
+    border-radius: 50%;
+    width: 40px;
+    length: 40px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
 }
 
 /*****
