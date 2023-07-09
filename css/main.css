@@ -290,7 +290,7 @@ footer {
     background-color: plum;
     border-radius: 50%;
     width: 40px;
-    length: 40px;
+    height: 40px;
     display: flex;
     justify-content: center;
     align-items: center;
