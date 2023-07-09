@@ -290,7 +290,10 @@ footer {
 
 }
 
-.icons ul img {
+.icons i {
+    color: pink;
+}
+.icons ul i {
     background-color: plum;
     color: pink;
     border-radius: 50%;
