@@ -264,17 +264,18 @@ footer {
     line-height: 40px;
 }
 
-.social-icons {
+/*****Social Icons*****/
+footer .social-icons {
     display: flex;
     justify-content: space-around;
     align-items: center;
 }
 
-.social-icons p {
+footer .social-icons p {
     background-color: plum;
     border-radius: 50%;
     width: 40px;
-    height: 40px;
+    length: 40px;
     display: flex;
     justify-content: center;
     align-items: center;
