@@ -245,6 +245,7 @@ footer {
     margin: 1px auto;
     text-align: center;
     padding-bottom: 20px;
+   
 }
 
 .summary h4 {
@@ -265,47 +266,7 @@ footer {
     line-height: 40px;
 }
 
-/*****Social Icons*****/
-.icons h3 {
-    height: 40%;
-    width: 100%;
-    text-align: center;
 
-}
-.icons a {
-    text-decoration: none;
-    color: white;
-    font-weight: bold;
-    font-size: 28px;
-}
-
-.icons ul {
-    list-style: none;
-    width: 50%;
-  
-    padding-left: 90px;
-}
-
-.icons ul li {
-    display: inline-block;
-
-}
-
-.icons i {
-    color: pink;
-}
-.icons ul i {
-    background-color: plum;
-    color: pink;
-    border-radius: 50%;
-    width: 40px;
-    height: 40px;
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    
-    
-}
 
 /*****
 footer .social-icons {
@@ -370,6 +331,49 @@ footer .social-icons p {
     font-family: 'Emblema One', cursive;
 }
 
+
+
+/*****Social Icons*****/
+
+.icons h3 {
+    height: 40%;
+    width: 100%;
+    text-align: center;
+ 
+}
+.icons a {
+    text-decoration: none;
+    
+    font-weight: bold;
+    font-size: 28px;
+}
+
+.icons ul {
+    list-style: none;
+    width: 50%;
+    padding-left: 35%;
+}
+
+.icons ul li {
+    display: inline-block;
+}
+
+.icons i {
+    color: pink;
+}
+
+.icons ul i {
+    background-color: plum;
+    color: pink;
+    border-radius: 50%;
+    width: 40px;
+    height: 40px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    
+    
+}
 @media screen and (min-width: 760px) {
     /*HEADER*/
     header .full-width {
