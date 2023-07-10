@@ -339,11 +339,33 @@ footer .social-icons p {
     height: 40%;
     width: 100%;
     text-align: center;
- 
 }
+
+.social-icons {
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+  }
+  
+.social-icons p {
+    border-radius: 50%;
+    width: 40px;
+    height: 40px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  }
+  
+.social-icons  p i {
+    font-size: 1.3125em;
+    
+}
+
+
+/*****
 .icons a {
     text-decoration: none;
-    
+    color: white;
     font-weight: bold;
     font-size: 28px;
 }
@@ -358,13 +380,8 @@ footer .social-icons p {
     display: inline-block;
 }
 
-.icons i {
-    color: pink;
-}
-
-.icons ul i {
+.icons ul img {
     background-color: plum;
-    color: pink;
     border-radius: 50%;
     width: 40px;
     height: 40px;
@@ -374,6 +391,10 @@ footer .social-icons p {
     
     
 }
+
+*****/
+
+
 @media screen and (min-width: 760px) {
     /*HEADER*/
     header .full-width {
@@ -403,7 +424,6 @@ footer .social-icons p {
     nav {
         padding: 30px 20px;
     }
-
 
     .about-me {
         font-size: 30px;
