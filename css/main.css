@@ -385,11 +385,14 @@ footer {
         width: 40%;
     }
 
+    .project-piece img:hover{
+        border: double #D8BFD8 15px; 
+    }
+
     .skills-list:hover {
         color: plum;
         font-size: 30px;
         font-weight: 400;
-        
     }
 
 
