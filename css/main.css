@@ -331,8 +331,6 @@ footer .social-icons p {
     font-family: 'Emblema One', cursive;
 }
 
-
-
 /*****Social Icons*****/
 
 .icons h3 {
@@ -357,17 +355,12 @@ footer .social-icons p {
     font-size: 180%;
     
   }
-  
-.social-icons p i {
-    
-   
-}
 
-.end {
+.end-footer {
     text-align: center;
     color: #F9629F;
     padding: 40px 30px;
-    
+    font-size: 90%;
 }
 
 .footer {
