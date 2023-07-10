@@ -236,7 +236,7 @@ footer {
     border: solid 2px;
 }
 
-.footer-summary {
+.footer-container {
     display: flex;
     justify-content: center;
     align-items: flex-start;
@@ -248,12 +248,13 @@ footer {
    
 }
 
-.footer-summary h4 {
+.summary-container h4 {
     font-size: 30px;
     line-height: 50px;
+    text-align: center;
 }
 
-.footer-summary p {
+.summary-container p {
     font-size: 90%;
     text-align: center;
     width: 100%;
@@ -270,14 +271,16 @@ footer {
 .img-container {
     position: relative;
     width: 50%;
+    padding-left: 25%
 }
 
-.footer-summary img {
+.img-container img {
     display: block;
     width: 95%;
     height: auto;
     border-radius: 80%;
-    border: solid 5px pink;
+    border: double 7px pink;
+    
 }
 
 .overlay {
@@ -343,6 +346,7 @@ footer {
 
 .footer {
     font-family: 'Lily Script One', cursive; 
+    color: #F9629F;
 }
 
 /******MEDIA SCREEN TABLET*****/
@@ -408,11 +412,6 @@ footer {
         margin: 25px auto;
     }
 
-    .summary h4 {
-        text-align: left;
-        ;
-    }
-
     /*
     .summary {
         display: flex;
@@ -447,7 +446,6 @@ footer {
         font-size: 35px;
         width: 40%;
         padding-bottom: 20px;
-        
     }
 
     header nav ul {
