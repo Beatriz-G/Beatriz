@@ -236,7 +236,7 @@ footer {
     border: solid 2px;
 }
 
-.summary {
+.footer-summary {
     display: flex;
     justify-content: center;
     align-items: flex-start;
@@ -248,12 +248,12 @@ footer {
    
 }
 
-.summary h4 {
+.footer-summary h4 {
     font-size: 30px;
     line-height: 50px;
 }
 
-.summary p {
+.footer-summary p {
     font-size: 90%;
     text-align: center;
     width: 100%;
@@ -267,12 +267,12 @@ footer {
 }
 
 /*****IMG OVERLAY*****/
-.container {
+.img-container {
     position: relative;
     width: 50%;
 }
 
-.summary img {
+.footer-summary img {
     display: block;
     width: 95%;
     height: auto;
@@ -295,7 +295,7 @@ footer {
     padding-left: 10px;
 }
 
-.container:hover .overlay {
+.img-container:hover .overlay {
     opacity: 1;
 }
 
@@ -395,9 +395,7 @@ footer {
         font-weight: 400;
     }
 
-
     /*CONTACT*/
-
 
     /*****CONTACT ME*****/
     .summary {
@@ -408,6 +406,11 @@ footer {
         gap: 35px;
         width: 40%;
         margin: 25px auto;
+    }
+
+    .summary h4 {
+        text-align: left;
+        ;
     }
 
     /*
