@@ -328,13 +328,20 @@ footer {
 }
   
 .social-icons p {
-    border-radius: 50%;
+    border-radius: 90%;
     width: 40px;
     height: 40px;
     display: flex;
     justify-content: center;
     align-items: center;
-    font-size: 180%;
+    font-size: 110%;
+    background-color: plum;
+    
+  }
+
+  .social-icons p i {
+      color: #ffdbe9;
+      text-align: center;
   }
 
 .end-footer {
