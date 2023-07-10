@@ -266,27 +266,6 @@ footer {
     line-height: 40px;
 }
 
-
-
-/*****
-footer .social-icons {
-    display: flex;
-    justify-content: space-around;
-    align-items: center;
-}
-
-footer .social-icons p {
-    background-color: plum;
-    border-radius: 50%;
-    width: 40px;
-    length: 40px;
-    display: flex;
-    justify-content: center;
-    align-items: center;
-  }
-*****/
-
-
 /*****IMG OVERLAY*****/
 .container {
     position: relative;
