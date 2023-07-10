@@ -345,7 +345,7 @@ footer .social-icons p {
     display: flex;
     justify-content: space-around;
     align-items: center;
-  }
+}
   
 .social-icons p {
     border-radius: 50%;
@@ -354,45 +354,25 @@ footer .social-icons p {
     display: flex;
     justify-content: center;
     align-items: center;
+    font-size: 180%;
+    
   }
   
-.social-icons  p i {
-    font-size: 1.3125em;
+.social-icons p i {
+    
+   
+}
+
+.end {
+    text-align: center;
+    color: #F9629F;
+    padding: 40px 30px;
     
 }
 
-
-/*****
-.icons a {
-    text-decoration: none;
-    color: white;
-    font-weight: bold;
-    font-size: 28px;
+.footer {
+    font-family: 'Lily Script One', cursive; 
 }
-
-.icons ul {
-    list-style: none;
-    width: 50%;
-    padding-left: 35%;
-}
-
-.icons ul li {
-    display: inline-block;
-}
-
-.icons ul img {
-    background-color: plum;
-    border-radius: 50%;
-    width: 40px;
-    height: 40px;
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    
-    
-}
-
-*****/
 
 
 @media screen and (min-width: 760px) {
