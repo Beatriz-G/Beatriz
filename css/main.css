@@ -440,30 +440,37 @@ footer {
         justify-content: center;
         align-items: flex-start;
         flex-flow: row wrap;
-        gap: 35px;
         width: 100%;
-        margin: 25px auto;
+        margin: 25px 5%;
     }
 
-    .summary-container,
-    .img-container {
-        width: 90%;
+    .summary-container {
+        width: 95%;
         max-width: 40%;
-        height: 500%;
+        height: auto;
         display: flex;
         justify-content: space-evenly;
         flex-direction: column;
         align-items: center;
-        line-height: 40px;
-        padding: 0 15px;
         font-size: 90%;
+    }
+
+    .summary-container h4 {
+        font-size: 110%;
+        line-height: 30px;
+        text-align: center;
+        
     }
 
     /*****IMG OVERLAY*****/
     .img-container {
-        position: relative;
-        width: 50%;
-        
+        width: 95%;
+        max-width: 30%;
+        height: auto;
+        display: flex;
+        justify-content: space-evenly;
+        flex-direction: column;
+        align-items: center;
     }
 
     .img-container img {
