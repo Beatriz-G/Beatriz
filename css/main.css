@@ -365,18 +365,16 @@ footer {
     justify-content: center;
     align-items: center;
     font-size: 110%;
-    background-color: plum;
-    
-  }
+    background-color: plum;  
+}
 
-  .social-icons p i {
-      color: #ffdbe9;
-      text-align: center;
-  }
+.social-icons p i {
+    color: #ffdbe9;
+    text-align: center;
+}
 
 .end-footer {
     text-align: center;
-    
     padding: 40px 30px;
     font-size: 90%;
 }
@@ -438,8 +436,6 @@ footer {
     }
 
     /*CONTACT*/
-
-    /*****CONTACT ME*****/
     .summary {
         display: flex;
         justify-content: center;
