@@ -249,7 +249,7 @@ footer {
 }
 
 .summary-container h4 {
-    font-size: 30px;
+    font-size: 120%;
     line-height: 50px;
     text-align: center;
 }
@@ -267,6 +267,34 @@ footer {
     line-height: 40px;
 }
 
+/**Email Hover**/
+.hovertext {
+    position: relative;
+}
+
+.hovertext:before {
+    content: attr(data-hover);
+    visibility: hidden;
+    opacity: 0;
+    width: 650%;
+    background-color: plum;
+    color: #fff;
+    text-align: left;
+    border-radius: 5px;
+    padding: 5px 5px;
+    transition: opacity 1s ease-in-out;
+    position: absolute;
+    font-size: 80%;
+    left: 0;
+    top: 110%;
+    z-index: 1;
+}
+
+.hovertext:hover:before {
+    opacity: 1;
+    visibility: visible;
+}
+
 /*****IMG OVERLAY*****/
 .img-container {
     position: relative;
@@ -281,8 +309,6 @@ footer {
     height: auto;
     border-radius: 80%;
     border: double 7px pink;
-    
-    
 }
 
 .overlay {
@@ -295,7 +321,7 @@ footer {
     width: 95%;
     opacity: 0;
     transition: .8s ease;
-    background: rgba(238, 182, 182, 0.3);
+    background: rgba(238, 182, 182, 0.8);
     border-radius: 80%;
     padding-left: 10px;
 }
