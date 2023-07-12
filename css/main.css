@@ -549,9 +549,10 @@ footer {
     .footer-summary {
         max-width: 1200%;
         width: 100%;
+        margin: 30px 0;
     }
     .summary-container {
-        
+        padding-right: 60px;
         font-size: 120%;
     }
 
@@ -563,12 +564,7 @@ footer {
 
     .summary-container p {
         font-size: 75%;
-        text-align: center;
-        width: auto;
-        display: flex;
-        justify-content: space-evenly;
-        flex-direction: column;
-        align-items: center;
+        
         line-height: 35px;
     }
 
@@ -582,7 +578,7 @@ footer {
         flex-direction: column;
         align-items: left;
         margin-left: 80px;
-        padding-top: 45px;
+        padding-top: 15px;
     }
 
     .img-container img {
@@ -597,7 +593,7 @@ footer {
     .overlay {
         height: auto;
         width: 95%;
-        margin-top: 45px;
+        margin-top: 15px;
         
     }
 }
