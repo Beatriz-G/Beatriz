@@ -506,13 +506,12 @@ footer {
         margin-top: 45px;
         
     }
-
-
 }
 
 /*****1200 px screens*****/
 @media screen and (min-width: 1200px) {
     
+    /*HEADER*/
     header h1 {
         font-size: 35px;
         width: 40%;
@@ -533,6 +532,7 @@ footer {
         padding-left: 40px;
     }
 
+    /*PROJECTS*/
     .project-piece {
         width: 25%;
     }
@@ -545,15 +545,65 @@ footer {
     }
 
     /*****CONTACT ME*****/
-    .img-summary {
+    
+
+    .summary-container {
+        width: 95%;
+        max-width: 45%;
+        height: auto;
         display: flex;
-        justify-content: center;
-        align-items: flex-start;
-        flex-flow: row wrap;
-        gap: 35px;
-        width: 100%;
-        margin: 25px auto;
-        padding: 5px 5px;
+        justify-content: space-evenly;
+        flex-direction: column;
+        align-items: center;
+        font-size: 120%;
+        
     }
+
+    .summary-container h4 {
+        font-size: 110%;
+        line-height: 40px;
+        text-align: center;
+    }
+
+    .summary-container p {
+        font-size: 95%;
+        text-align: center;
+        width: auto;
+        display: flex;
+        justify-content: space-evenly;
+        flex-direction: column;
+        align-items: center;
+        line-height: 35px;
+    }
+
+    /*****IMG OVERLAY*****/
+    .img-container {
+        width: 95%;
+        max-width: 30%;
+        height: auto;
+        display: flex;
+        justify-content: space-evenly;
+        flex-direction: column;
+        align-items: left;
+        margin-left: 80px;
+        padding-top: 45px;
+    }
+
+    .img-container img {
+        display: block;
+        width: 95%;
+        height: auto;
+        border-radius: 80%;
+        border: double 7px pink;
+        
+    }
+
+    .overlay {
+        height: auto;
+        width: 95%;
+        margin-top: 45px;
+        
+    }
+}
     
 }
