@@ -372,6 +372,10 @@ footer {
     text-align: center;
 }
 
+.icon-links a{
+    padding-top: 15%;
+}
+
 .end-footer {
     text-align: center;
     padding: 40px 30px;
