@@ -497,11 +497,13 @@ footer {
         height: auto;
         border-radius: 80%;
         border: double 7px pink;
+        
     }
 
     .overlay {
-        height: 100%;
+        height: auto;
         width: 95%;
+        margin-top: 45px;
         
     }
 
