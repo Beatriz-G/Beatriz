@@ -446,7 +446,7 @@ footer {
         align-items: flex-start;
         flex-flow: row wrap;
         width: 100%;
-        margin: 25px 5%;
+        margin: 20px 0;
     }
 
     .summary-container {
@@ -458,6 +458,7 @@ footer {
         flex-direction: column;
         align-items: center;
         font-size: 90%;
+        
     }
 
     .summary-container h4 {
@@ -470,7 +471,6 @@ footer {
         font-size: 90%;
         text-align: center;
         width: auto;
-      
         display: flex;
         justify-content: space-evenly;
         flex-direction: column;
@@ -487,7 +487,8 @@ footer {
         justify-content: space-evenly;
         flex-direction: column;
         align-items: left;
-        margin-right: 70px;
+        margin-left: 80px;
+        padding-top: 45px;
     }
 
     .img-container img {
