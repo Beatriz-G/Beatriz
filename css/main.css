@@ -462,7 +462,7 @@ footer {
         line-height: 25px;
     }
 
-    /*****IMG OVERLAY*****/
+    /*IMG OVERLAY*/
     .img-container {
         width: 95%;
         max-width: 30%;
@@ -490,7 +490,6 @@ footer {
         margin-top: 35px;
     }
 
-
     .text {
         left: 55%;
     }
@@ -514,10 +513,16 @@ footer {
     }
 
     header h2 {
-        font-size: 70px;
+        font-size: 60px;
         line-height: 150%;
         padding: 10px;
         padding-left: 40px;
+        
+    }
+
+    .welcome {
+        color:#fe7f9c;
+        font-size: 60px;
     }
 
     /*PROJECTS*/
@@ -529,7 +534,7 @@ footer {
     #projects h2,
     #skills-tools h2, 
     #contact h2 {
-        font-size: 90px;
+        font-size: 70px;
     }
 
     /*****CONTACT ME*****/
