@@ -272,6 +272,7 @@ footer {
 /**Email Hover**/
 .hovertext {
     position: relative;
+    cursor: pointer;
 }
 
 .hovertext:before {
@@ -615,7 +616,7 @@ footer {
         justify-content: space-evenly;
         align-items: center;
         gap: 40px;
-        margin: 30px 100px;
+        margin: 30px 80px;
     }
 
     .icons h3 {
@@ -623,7 +624,7 @@ footer {
         width: auto;
         text-align: center;
         font-size: 150%;
-        padding-left: 35px;
+        padding-left: 50px;
         
     }
     
@@ -641,17 +642,12 @@ footer {
 
     .hovertext:before {
         width: 700%;
-        background-color: plum;
-        color: #fff;
-        text-align: left;
-        border-radius: 5px;
         padding: 7px 5px 5px 5px; 
-        transition: opacity 1s ease-in-out;
-        position: absolute;
-        font-size: 80%;
-        left: 0;
-        top: 110%;
-        z-index: 1;
+    }
+
+    .icon-links a{
+        padding-top: 25%;
+        padding-left: 0;
     }
 }
     
