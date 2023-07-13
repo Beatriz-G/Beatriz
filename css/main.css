@@ -557,15 +557,14 @@ footer {
     }
 
     .summary-container h4 {
-        font-size: 90%;
-        line-height: 40px;
+        font-size: 100%;
+        line-height: 45px;
         
     }
 
     .summary-container p {
-        font-size: 75%;
-        
-        line-height: 35px;
+        font-size: 95%;
+        line-height: 40px;
     }
 
     /*****IMG OVERLAY*****/
@@ -600,21 +599,21 @@ footer {
     /*ICONS*/
     .icons {
         width: 95%;
-        max-width: 35%;
+        max-width: 85%;
         height: auto;
         display: flex;
         justify-content: space-evenly;
         align-items: center;
-        gap: 70%;
-        padding: 20px 40px;
-        margin: 0
+        gap: 30px;
+        margin: 30px 100px;
     }
 
     .icons h3 {
-        height: 50%;
-        width: 950%;
+        height: 80%;
+        width: auto;
         text-align: center;
         font-size: 150%;
+        padding-left: 60px;
         
     }
     
@@ -627,13 +626,8 @@ footer {
         align-items: center;
         font-size: 110%;
         gap: 40px;
+        margin-left: 50px;
         
     }
 }
     
-}
-
- display: flex;
-        justify-content: space-around;
-        align-items: center;
-        width: 70%;
