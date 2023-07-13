@@ -83,7 +83,8 @@ header h2 {
     padding: 10px 0;
     text-align: center;
     color: #fe7f9c;
-    border: solid 2px;
+    border-bottom: solid 2px;
+    border-top: solid 2px;
 }
 
 .about-me  {
@@ -424,7 +425,7 @@ footer {
     }
 
     .project-piece img:hover{
-        border: double #D8BFD8 15px; 
+        border: double pink 15px; 
     }
 
     .skills-list:hover {
