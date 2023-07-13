@@ -434,9 +434,10 @@ footer {
 
     .skills-list:hover {
         color: plum;
-        font-size: 30px;
+        font-size: 20px;
         font-weight: 400;
         padding-bottom: 60px;
+        padding: 0 20px 50px 20px; 
     }
 
     /*CONTACT*/
@@ -446,7 +447,7 @@ footer {
         align-items: flex-start;
         flex-flow: row wrap;
         width: 100%;
-        margin: 20px 0;
+        margin: 10px 0;
     }
 
     .summary-container {
@@ -458,7 +459,6 @@ footer {
         flex-direction: column;
         align-items: center;
         font-size: 90%;
-        
     }
 
     .summary-container h4 {
@@ -488,7 +488,7 @@ footer {
         flex-direction: column;
         align-items: left;
         margin-left: 80px;
-        padding-top: 45px;
+        padding-top: 65px;
     }
 
     .img-container img {
@@ -503,8 +503,7 @@ footer {
     .overlay {
         height: auto;
         width: 95%;
-        margin-top: 45px;
-        
+        margin-top: 65px;
     }
 }
 
@@ -593,7 +592,16 @@ footer {
         height: auto;
         width: 95%;
         margin-top: 15px;
-        
+    }
+
+    .text {
+        font-size: 30px;
+        position: absolute;
+        top: 50%;
+        left: 50%;
+        transform: translate(-50%, -50%);
+        -ms-transform: translate(-50%, -50%);
+        font-family: 'Emblema One', cursive;
     }
 
     /*ICONS*/
