@@ -638,5 +638,20 @@ footer {
         gap: 80px;
         margin-left: 50px;
     }
+
+    .hovertext:before {
+        width: 700%;
+        background-color: plum;
+        color: #fff;
+        text-align: left;
+        border-radius: 5px;
+        padding: 7px 5px 5px 5px; 
+        transition: opacity 1s ease-in-out;
+        position: absolute;
+        font-size: 80%;
+        left: 0;
+        top: 110%;
+        z-index: 1;
+    }
 }
     
