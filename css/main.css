@@ -141,14 +141,18 @@ header h2 {
 }
 
 .project-button {
-    width: 100%;
+    width: 40%;
     color: hotpink;
     padding: 10px 20px;
     border-radius: 30px;
     font-size: 20px;
     background-color: pink;
-    border-color: whitesmoke;
+    border: 2px solid white;
+    
     text-align: center;
+    cursor: pointer;
+    text-decoration: none;
+    
 }
 
 .project-button:hover {
