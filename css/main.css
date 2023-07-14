@@ -503,6 +503,10 @@ footer {
     .text {
         left: 55%;
     }
+
+    .icons h3 {
+        padding-left: 50px;
+    }
 }
 
 /*****1200 px screens*****/
