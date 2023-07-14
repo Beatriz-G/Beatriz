@@ -266,8 +266,6 @@ footer {
     line-height: 40px;
 }
 
-
-
 /**IMG OVERLAY**/
 .img-container {
     position: relative;
@@ -280,7 +278,7 @@ footer {
     width: 95%;
     height: auto;
     border-radius: 80%;
-    border: double 7px pink;
+    border: double 7px #f0bad1;
 }
 
 .overlay {
