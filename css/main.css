@@ -2,9 +2,9 @@
 
 body {
     font-family: 'Josefin Sans', sans-serif;
-    color: #656660;
+    color: #878882;
     font-size: 25px;
-    background-color: #ffdbe9; 
+    background: linear-gradient(123.5deg, rgb(244, 219, 251) 29.3%, rgba(241, 207, 221, 0.956) 67.1%);
 }
 
 /*****GRID*****/
@@ -31,6 +31,12 @@ header h1 {
     text-align: center;
     color: #fe7f9c;
 }
+
+.welcome {
+    color:#fe7f9c;
+    font-size: 60px;
+}
+
 
 nav {
     width: 100%;
@@ -483,9 +489,7 @@ footer {
         width: 95%;
         height: auto;
         border-radius: 80%;
-        border: double 7px pink;
-
-        
+        border: double 10px pink;
     }
 
     .overlay {
@@ -521,12 +525,6 @@ footer {
         line-height: 150%;
         padding: 10px;
         padding-left: 40px;
-        
-    }
-
-    .welcome {
-        color:#fe7f9c;
-        font-size: 60px;
     }
 
     /*PROJECTS*/
