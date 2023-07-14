@@ -137,6 +137,7 @@ header h2 {
     padding: 10px 20px;
     border-radius: 18px;
     border: 4px double #ffb6c1;
+    box-shadow: 10px 10px 10px plum; 
     
 }
 
@@ -151,7 +152,7 @@ header h2 {
     text-align: center;
     cursor: pointer;
     text-decoration: none;
-    box-shadow: 10px 5px 5px plum;
+    box-shadow: 10px 10px 5px plum;
 }
 
 .project-button:hover {
@@ -428,7 +429,8 @@ footer {
         font-size: 20px;
         font-weight: 400;
         padding-bottom: 60px;
-        padding: 0 20px 50px 20px; 
+        padding: 0 20px 50px 20px;
+        
     }
 
     /*CONTACT*/
@@ -482,6 +484,7 @@ footer {
         height: auto;
         border-radius: 80%;
         border: double 7px pink;
+
         
     }
 
