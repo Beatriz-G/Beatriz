@@ -416,6 +416,8 @@ footer {
         padding: 30px 20px;
     }
 
+    /*ABOUT ME*/
+
     .about-me {
         font-size: 30px;
         line-height: 45px;
@@ -436,7 +438,6 @@ footer {
         font-weight: 400;
         padding-bottom: 60px;
         padding: 0 20px 50px 20px;
-        
     }
 
     /*CONTACT*/
@@ -502,6 +503,7 @@ footer {
         left: 55%;
     }
 
+    /*ICONS*/
     .icons h3 {
         padding-left: 50px;
     }
@@ -558,7 +560,6 @@ footer {
     .summary-container h4 {
         font-size: 100%;
         line-height: 45px;
-        
     }
 
     .summary-container p {
@@ -640,9 +641,9 @@ footer {
         padding: 7px 5px 5px 5px; 
     }
 
-    .icon-links a{
-        padding-top: 19%;
-        padding-left: 3%;
+    .icon-links a {
+        padding-top: 23%;
+        padding-left: 2%;
     }
 }
     
