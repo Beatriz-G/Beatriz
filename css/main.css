@@ -9,7 +9,7 @@ body {
 /*****GRID*****/
 
 .full-width {
-    width: 100%;
+    width: 95%;
     margin: 0 auto;
     overflow: auto;
 }
@@ -101,7 +101,7 @@ header h2 {
 
 #projects {
     text-align: center;
-    background-color: #ffe2e6;
+    background-color: #ffe3e6;
 }
 
 #projects h2 {
@@ -193,7 +193,7 @@ header h2 {
 
 /**SKILLS AND TOOLS**/
 #skills-tools {
-    background-color: #ffdbe0;
+    background-color: #f9dadf;
 }
 
 #skills-tools h2 {
