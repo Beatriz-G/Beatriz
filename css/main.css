@@ -4,7 +4,6 @@ body {
     font-family: 'Josefin Sans', sans-serif;
     color: #878882;
     font-size: 25px;
-    background: linear-gradient(123.5deg, rgb(240, 217, 247) 29.3%, rgba(241, 207, 221, 0.956) 67.1%);
 }
 
 /*****GRID*****/
@@ -21,6 +20,7 @@ header .full-width {
     display: flex;
     flex-wrap: wrap;
     padding-top: 20px;  
+    background: #FFE2E6;
 }
 
 header h1 {
@@ -77,6 +77,10 @@ header h2 {
 
 /**ABOUT ME**/
 
+#about {
+    background-color: #FFDBE0;
+}
+
 #about h2 {
     font-size: 40px;
     font-family: 'Emblema One', cursive;
@@ -97,16 +101,18 @@ header h2 {
 
 #projects {
     text-align: center;
+    background-color: #FFD3DA;
 }
 
 #projects h2 {
     font-size: 40px;
     font-family: 'Emblema One', cursive;
+    padding: 10px 0;
     text-align: center;
     color: #fe7f9c;
     border: solid 2px;
-    margin: 0 auto 20px auto;
-    padding: 10px 0;
+    
+    
 }
 
 #projects h3 {
@@ -188,6 +194,10 @@ header h2 {
 }
 
 /**SKILLS AND TOOLS**/
+#skills-tools {
+    background-color: #FFCCD4;
+}
+
 #skills-tools h2 {
     font-size: 40px;
     font-family: 'Emblema One', cursive;
@@ -230,6 +240,7 @@ footer {
     justify-content: center;
     align-items: center;
     flex-flow: row wrap;
+    background-color: #FFC5CD;
 }
 
 #contact h2 {
