@@ -21,10 +21,11 @@ header .full-width {
     flex-wrap: wrap;
     padding-top: 20px;  
     background: #feebed;
+    width: 100%;
 }
 
 header h1 {
-    width: 100%;
+    width: 95%;
     padding: 10px 0;    
     font-family: 'Emblema One', cursive;
     font-size: 60px;
@@ -36,7 +37,6 @@ header h1 {
     color:#fe7f9c;
     font-size: 60px;
 }
-
 
 nav {
     width: 100%;
@@ -67,7 +67,7 @@ header a:hover {
 header h2 {
     text-align: center;
     font-size: 40px;
-    width: 90%;
+    width: 100%;
     padding: 0 9%;
     line-height: 150%;
     font-weight: 900;
@@ -147,8 +147,7 @@ header h2 {
     padding: 10px 20px;
     border-radius: 18px;
     border: 4px double #ffb6c1;
-    box-shadow: 10px 10px 10px plum; 
-    
+    box-shadow: 7px 7px 10px rgb(240, 189, 240); 
 }
 
 .project-button {
@@ -162,7 +161,7 @@ header h2 {
     text-align: center;
     cursor: pointer;
     text-decoration: none;
-    box-shadow: 10px 10px 5px plum;
+    box-shadow: 7px 7px 5px rgb(235, 199, 235);
 }
 
 .project-button:hover {
@@ -193,7 +192,7 @@ header h2 {
 
 /**SKILLS AND TOOLS**/
 #skills-tools {
-    background-color: #f9dadf;
+    background-color: #f9dfe4;
 }
 
 #skills-tools h2 {
@@ -204,7 +203,6 @@ header h2 {
     color: #fe7f9c;
     border: solid 2px;
 }
-
 
 .skills-tools-sections {
     display: flex;
@@ -238,7 +236,7 @@ footer {
     justify-content: center;
     align-items: center;
     flex-flow: row wrap;
-    background-color: #FFD3DA;
+    background-color: #f7d8dd;
 }
 
 #contact h2 {
