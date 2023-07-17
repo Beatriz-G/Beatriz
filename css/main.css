@@ -9,7 +9,7 @@ body {
 /*****GRID*****/
 
 .full-width {
-    width: 95%;
+    width: 100%;
     margin: 0 auto;
     overflow: auto;
 }
@@ -20,7 +20,7 @@ header .full-width {
     display: flex;
     flex-wrap: wrap;
     padding-top: 20px;  
-    background: #FFE2E6;
+    background: #feebed;
 }
 
 header h1 {
@@ -78,7 +78,7 @@ header h2 {
 /**ABOUT ME**/
 
 #about {
-    background-color: #FFDBE0;
+    background-color: #ffe7ea;
 }
 
 #about h2 {
@@ -101,7 +101,7 @@ header h2 {
 
 #projects {
     text-align: center;
-    background-color: #FFD3DA;
+    background-color: #ffe2e6;
 }
 
 #projects h2 {
@@ -111,8 +111,6 @@ header h2 {
     text-align: center;
     color: #fe7f9c;
     border: solid 2px;
-    
-    
 }
 
 #projects h3 {
@@ -195,7 +193,7 @@ header h2 {
 
 /**SKILLS AND TOOLS**/
 #skills-tools {
-    background-color: #FFCCD4;
+    background-color: #ffdbe0;
 }
 
 #skills-tools h2 {
@@ -240,7 +238,7 @@ footer {
     justify-content: center;
     align-items: center;
     flex-flow: row wrap;
-    background-color: #FFC5CD;
+    background-color: #FFD3DA;
 }
 
 #contact h2 {
@@ -387,7 +385,7 @@ footer {
 .end-footer {
     text-align: center;
     padding: 40px 30px;
-    font-size: 90%;
+    font-size: 70%;
 }
 
 .footer {
