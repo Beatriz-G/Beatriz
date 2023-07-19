@@ -9,7 +9,7 @@ body {
 /*****GRID*****/
 
 .full-width {
-    width: 100%;
+    width: 95%;
     margin: 0 auto;
     overflow: auto;
 }
@@ -26,7 +26,7 @@ header .full-width {
 
 header h1 {
     width: 95%;
-    padding: 10px 0;    
+    padding: 10px 5px;    
     font-family: 'Emblema One', cursive;
     font-size: 55px;
     text-align: center;
@@ -60,12 +60,12 @@ header a:hover {
 
 .welcome {
     color:#fe7f9c;
-    font-size: 55px;
+    font-size: 53px;
 }
 
 header h2 {
     text-align: center;
-    font-size: 35px;
+    font-size: 33px;
     width: 95%;
     padding: 0 2%;
     line-height: 150%;
