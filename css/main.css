@@ -28,14 +28,9 @@ header h1 {
     width: 95%;
     padding: 10px 0;    
     font-family: 'Emblema One', cursive;
-    font-size: 60px;
+    font-size: 55px;
     text-align: center;
     color: #fe7f9c;
-}
-
-.welcome {
-    color:#fe7f9c;
-    font-size: 60px;
 }
 
 nav {
@@ -63,11 +58,16 @@ header a:hover {
     font-family: 'Emblema One', cursive;
 }
 
+.welcome {
+    color:#fe7f9c;
+    font-size: 55px;
+}
+
 header h2 {
     text-align: center;
-    font-size: 40px;
+    font-size: 35px;
     width: 95%;
-    /*padding: 0 9%;-->*/
+    padding: 0 2%;
     line-height: 150%;
     font-weight: 900;
 }
