@@ -40,6 +40,24 @@ nav {
 nav ul {
     display: flex;
     flex-wrap: wrap;
+    list-style-type: none;
+    text-transform: uppercase;
+    justify-content: space-around;
+    margin: 0 20%;
+}
+
+nav ul li a {
+    display: block;
+    width: 50%;
+    margin: 0 20px;
+    text-align: center;
+    
+}
+
+/*
+nav ul {
+    display: flex;
+    flex-wrap: wrap;
     justify-content: space-around;
     list-style-type: none;
     padding-right: 25px;
@@ -51,6 +69,7 @@ nav ul li a {
     font-size: 20px;
     color: plum;
 }
+*/
 
 header a:hover {
     color: #fe7f9c;
