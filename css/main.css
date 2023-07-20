@@ -44,7 +44,7 @@ nav ul {
     text-transform: uppercase;
     justify-content: space-around;
     margin: 0;
-    padding: 0 40%;
+    padding-left: 45%;
     width: 60px;
     text-align: center;
 }
@@ -80,6 +80,7 @@ header a:hover {
     color: #fe7f9c;
     font-size: 25px;
     font-family: 'Emblema One', cursive;
+    line-height: 30px;
 }
 
 .welcome {
