@@ -40,29 +40,6 @@ nav {
 nav ul {
     display: flex;
     flex-wrap: wrap;
-    list-style-type: none;
-    text-transform: uppercase;
-    justify-content: space-around;
-    margin: 0;
-    padding-left: 45%;
-    width: 60px;
-    text-align: center;
-}
-
-nav ul li a {
-    display: block;
-    width: 90%;
-    text-align: center;
-    font-size: 15px;
-    color: plum;
-    text-decoration: none;
-    line-height: 25px;
-}
-
-/*
-nav ul {
-    display: flex;
-    flex-wrap: wrap;
     justify-content: space-around;
     list-style-type: none;
     padding-right: 25px;
@@ -73,14 +50,6 @@ nav ul li a {
     text-decoration: none;
     font-size: 20px;
     color: plum;
-}
-*/
-
-header a:hover {
-    color: #fe7f9c;
-    font-size: 25px;
-    font-family: 'Emblema One', cursive;
-    line-height: 30px;
 }
 
 .welcome {
@@ -422,27 +391,49 @@ footer {
         justify-content: space-between;
         width: 100%;
     }
+    nav {
+        width: 45%;
+    }
 
     header h1 {
         width: 45%;
         padding-top: 20px;
     }
 
-    header nav {
-        width: 45%;
+    header nav ul {
+        display: flex;
+        flex-wrap: wrap;
+        justify-content: space-around;
+        list-style-type: none;
+        padding-right: 20px;
+        padding-top: 20px;
+        
+    }
+
+    header nav ul li a {
+        text-transform: uppercase;
+        text-decoration: none;
+        font-size: 20px;
+        color: plum;
+        justify-content: space-around;
+        width: 100%;
+       
+    }
+
+     header nav ul {
+        justify-content: space-evenly;   
+    }
+
+    header a:hover {
+        color: #fe7f9c;
+        font-size: 25px;
+        font-family: 'Emblema One', cursive;
+        line-height: 30px;
     }
 
     header h2 {
         font-size: 50px;
         line-height: 90px;
-    }
-    header nav ul {
-        justify-content: space-evenly;
-        font-size: 40px;
-    }
-
-    nav {
-        padding: 30px 20px;
     }
 
     /*ABOUT ME*/
@@ -499,8 +490,8 @@ footer {
         justify-content: space-evenly;
         flex-direction: column;
         align-items: center;
-        line-height: 25px;
-        padding-top: 25px;
+        line-height: 30px;
+        
     }
 
     /*IMG OVERLAY*/
@@ -541,7 +532,7 @@ footer {
     
     /*HEADER*/
     header h1 {
-        font-size: 35px;
+        font-size: 45px;
         width: 40%;
         padding-bottom: 20px;
     }
@@ -552,6 +543,7 @@ footer {
         padding-right: 40px;
         padding-bottom: 10px;
     }
+
 
     header h2 {
         font-size: 60px;
