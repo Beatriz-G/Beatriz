@@ -344,10 +344,20 @@ footer {
     padding-left: 2%;
 }
 
-/**Email Hover**/
+#email::after {
+    font-size: 60%;
+    color: gray;
+    position:relative;
+    cursor: pointer;
+    padding-top: 90px;
+}
+
+
+/*
+/**Email Hover*
 .hovertext {
     position: relative;
-    cursor: pointer;
+    cursor: pointer;   
 }
 
 .hovertext:before {
@@ -372,6 +382,7 @@ footer {
     opacity: 1;
     visibility: visible;
 }
+*/
 
 .end-footer {
     text-align: center;
