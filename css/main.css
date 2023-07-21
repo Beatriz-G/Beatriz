@@ -344,15 +344,6 @@ footer {
     padding-left: 2%;
 }
 
-#email::after {
-    font-size: 60%;
-    color: gray;
-    position:relative;
-    cursor: pointer;
-    padding-top: 90px;
-}
-
-
 /*
 /**Email Hover*
 .hovertext {
