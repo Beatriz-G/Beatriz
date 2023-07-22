@@ -314,10 +314,10 @@ footer {
     text-align: center;
     font-size: 20px;
     background: plum;
-    padding: 20px ;
+    padding: 30px 0;
     color:#6e6f67; 
+    margin: 10px 0;
 }
-
 
 /**Social Icons**/
 .icons h3 {
@@ -344,7 +344,7 @@ footer {
 }
 
 .social-icons p i {
-    color: #ffdbe9;
+    color:  #f7d8dd;
     text-align: center;
 }
 
@@ -352,7 +352,6 @@ footer {
     padding-top: 14%;
     padding-left: 2%;
 }
-
 
 .end-footer {
     text-align: center;
