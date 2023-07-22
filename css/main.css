@@ -264,6 +264,7 @@ footer {
     line-height: 40px;
 }
 
+
 /**IMG OVERLAY**/
 .img-container {
     position: relative;
@@ -318,6 +319,10 @@ footer {
     margin: 10px 0;
 }
 
+#email-icon {
+    display: none;
+}
+
 /**Social Icons**/
 .icons h3 {
     height: 50%;
@@ -350,6 +355,10 @@ footer {
 .icon-links a{
     padding-top: 14%;
     padding-left: 2%;
+}
+
+.hovertext p {
+    display: none;
 }
 
 .end-footer {
@@ -506,7 +515,12 @@ footer {
         padding-top: 14%;
         padding-left: 2%;
     }
+
     /**Email Hover**/
+    #email-icon {
+        display: flex;
+    }
+
     .hovertext {
         position: relative;
         cursor: pointer;   
