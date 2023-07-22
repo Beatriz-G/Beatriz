@@ -310,6 +310,14 @@ footer {
     font-family: 'Emblema One', cursive;
 }
 
+.email {
+    text-align: center;
+    font-size: 20px;
+    background: plum;
+    padding: 60px 5px;
+
+}
+
 
 /**Social Icons**/
 .icons h3 {
