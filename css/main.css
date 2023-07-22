@@ -310,6 +310,7 @@ footer {
     font-family: 'Emblema One', cursive;
 }
 
+
 /**Social Icons**/
 .icons h3 {
     height: 50%;
@@ -344,36 +345,6 @@ footer {
     padding-left: 2%;
 }
 
-/*
-/**Email Hover*
-.hovertext {
-    position: relative;
-    cursor: pointer;   
-}
-
-.hovertext:before {
-    content: attr(data-hover);
-    visibility: hidden;
-    opacity: 0;
-    width: 650%;
-    background-color: plum;
-    color: #fff;
-    text-align: left;
-    border-radius: 5px;
-    padding: 5px 5px;
-    transition: opacity 1s ease-in-out;
-    position: absolute;
-    font-size: 80%;
-    left: 0;
-    top: 110%;
-    z-index: 1;
-}
-
-.hovertext:hover:before {
-    opacity: 1;
-    visibility: visible;
-}
-*/
 
 .end-footer {
     text-align: center;
@@ -496,6 +467,39 @@ footer {
         
     }
 
+    /**ICONS**/
+    .icons h3 {
+        height: 50%;
+        width: 100%;
+        text-align: center;
+    }
+    
+    .social-icons {
+        display: flex;
+        justify-content: space-around;
+        align-items: center;
+    }
+      
+    .social-icons p {
+        border-radius: 90%;
+        width: 40px;
+        height: 40px;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        font-size: 110%;
+        background-color: plum;  
+    }
+    
+    .social-icons p i {
+        color: #ffdbe9;
+        text-align: center;
+    }
+    
+    .icon-links a{
+        padding-top: 14%;
+        padding-left: 2%;
+    }
     /**Email Hover**/
     .hovertext {
         position: relative;
