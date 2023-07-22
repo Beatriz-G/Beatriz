@@ -535,6 +535,10 @@ footer {
         visibility: visible;
     }
 
+    .email {
+        display: none;
+    }
+
     /*IMG OVERLAY*/
     .img-container {
         width: 95%;
@@ -661,6 +665,11 @@ footer {
         top: 50%;
         left: 60%;
     }
+
+    .email {
+       display: none;
+    }
+
 
     /*ICONS*/
     .icons {
