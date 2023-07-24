@@ -456,7 +456,6 @@ footer {
         justify-content: center;
         align-items: flex-start;
         flex-flow: row wrap;
-        gap: 35px;
         width: 100%;
         margin: 25px auto;
     }
@@ -679,7 +678,6 @@ footer {
         justify-content: center;
         align-items: flex-start;
         flex-flow: row wrap;
-        gap: 45px;
     }
 
     header h2 {
