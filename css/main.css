@@ -533,7 +533,8 @@ footer {
         line-height: 30px;
     }
 
-    /**ICONS**/
+    /*ICONS*/
+
     .icons h3 {
         height: 50%;
         width: 100%;
@@ -567,7 +568,8 @@ footer {
         padding-left: 2%;
     }
 
-    /**Email Hover**/
+    /*Email Hover*/
+
     #email-icon {
         display: flex;
     }
@@ -605,6 +607,7 @@ footer {
     }
 
     /*IMG OVERLAY*/
+
     .img-container {
         width: 95%;
         max-width: 30%;
@@ -637,6 +640,7 @@ footer {
 }
 
 /*****1200 px screens*****/
+
 @media screen and (min-width: 1200px) {
     
     /*HEADER*/
@@ -654,7 +658,6 @@ footer {
         padding-top: 55px;
     }
 
-
     header h2 {
         font-size: 60px;
         line-height: 150%;
@@ -663,6 +666,7 @@ footer {
     }
 
     /*HEADER IMG*/
+
     .img-h2 {
         justify-content: space-evenly;
         flex-direction: column;
@@ -672,7 +676,6 @@ footer {
         align-items: flex-start;
         flex-flow: row wrap;
         gap: 45px;
-        
     }
 
     header h2 {
@@ -774,6 +777,7 @@ footer {
     }
 
     /*ICONS*/
+
     .icons {
         width: 95%;
         max-width: 85%;
