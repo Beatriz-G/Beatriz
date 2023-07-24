@@ -54,7 +54,7 @@ nav ul li a {
 
 .welcome {
     color:#fe7f9c;
-    font-size: 55px;
+    font-size: 50px;
 }
 
 .img-h2 {
@@ -63,7 +63,6 @@ nav ul li a {
     justify-content: center;
     align-items: flex-start;
     flex-flow: row wrap;
-    gap: 35px;
     margin: 25px auto;
 }
 
