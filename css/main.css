@@ -6,7 +6,7 @@ body {
     font-size: 25px;
 }
 
-/*****GRID*****/
+/**GRID**/
 
 .full-width {
     width: 95%;
@@ -14,7 +14,7 @@ body {
     overflow: auto;
 }
 
-/*****HEADER*****/
+/**HEADER**/
 
 header .full-width {
     display: flex;
@@ -203,6 +203,7 @@ header img {
 }
 
 /**SKILLS AND TOOLS**/
+
 #skills-tools {
     background-color: #f9dfe4;
 }
@@ -243,6 +244,7 @@ header img {
 }
 
 /**CONTACT**/
+
 footer {
     display:flex;
     justify-content: center;
@@ -284,8 +286,8 @@ footer {
     line-height: 40px;
 }
 
-
 /**IMG OVERLAY**/
+
 .img-container {
     position: relative;
     width: 50%;
@@ -344,6 +346,7 @@ footer {
 }
 
 /**Social Icons**/
+
 .icons h3 {
     height: 50%;
     width: 95%;
@@ -393,8 +396,11 @@ footer {
 }
 
 /******MEDIA SCREEN TABLET*****/
+
 @media screen and (min-width: 760px) {
+
     /*HEADER*/
+
     header .full-width {
         justify-content: space-between;
         width: 100%;
@@ -415,7 +421,6 @@ footer {
         list-style-type: none;
         padding-right: 20px;
         padding-top: 35px;
-        
     }
 
     header nav ul li a {
@@ -425,7 +430,6 @@ footer {
         color: plum;
         justify-content: space-around;
         width: 100%;
-       
     }
 
      header nav ul {
@@ -484,6 +488,7 @@ footer {
     }
 
     /*SKILLS & TOOLS*/
+
     .project-piece {
         width: 40%;
     }
@@ -501,6 +506,7 @@ footer {
     }
 
     /*CONTACT*/
+
     .footer-summary {
         display: flex;
         justify-content: center;
