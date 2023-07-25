@@ -433,7 +433,7 @@ footer {
         width: 100%;
     }
 
-     header nav ul {
+    header nav ul {
         justify-content: space-evenly;   
     }
 
@@ -564,7 +564,7 @@ footer {
         text-align: center;
     }
     
-    .icon-links a{
+    .icon-links a {
         padding-top: 14%;
         padding-left: 2%;
     }
@@ -679,8 +679,8 @@ footer {
     }
 
     .welcome {
-            font-size: 55px;
-        }
+        font-size: 55px;
+    }
 
     /*HEADER IMG*/
 
