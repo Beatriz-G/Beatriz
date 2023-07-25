@@ -661,15 +661,6 @@ footer {
         padding-top: 55px;
     }
 
-    header h2 {
-        font-size: 60px;
-        line-height: 150%;
-        padding: 10px;
-        padding-left: 40px;
-    }
-
-    /*HEADER IMG*/
-
     .img-h2 {
         justify-content: space-evenly;
         flex-direction: column;
@@ -681,18 +672,21 @@ footer {
     }
 
     header h2 {
-        text-align: center;
         font-size: 45px;
-        width: 30%;
-        padding: 0 2%;
         line-height: 170%;
-        font-weight: 900;
-        color: #767670; 
+        padding: 10px;
+        padding-left: 40px;
+        width: 30%;
+        padding: 0 8%;
     }
 
     .welcome {
-        font-size: 55px;
-    }
+            font-size: 55px;
+        }
+
+    /*HEADER IMG*/
+
+    
 
     header img {
         display: block;
