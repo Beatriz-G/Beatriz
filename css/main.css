@@ -671,7 +671,7 @@ footer {
 
     header h2 {
         font-size: 45px;
-        line-height: 170%;
+        line-height: 150%;
         padding: 10px;
         padding-left: 40px;
         width: 30%;
@@ -686,7 +686,7 @@ footer {
 
     header img {
         display: block;
-        width: 30%;
+        width: 25%;
         height: auto;
         border-radius: 80%;
         border: double 12px #f0bad1;
