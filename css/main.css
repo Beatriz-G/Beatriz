@@ -197,7 +197,7 @@ header img {
     margin: 10px auto 0 auto;
 }
 
- .project-piece .skills-list {
+.project-piece .skills-list {
     line-height: 120%;
     font-size: 15px;
 }
@@ -442,11 +442,6 @@ footer {
         font-size: 25px;
         font-family: 'Emblema One', cursive;
         line-height: 30px;
-    }
-
-    header h2 {
-        font-size: 50px;
-        line-height: 90px;
     }
 
     .img-h2 {
