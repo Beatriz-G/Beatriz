@@ -405,6 +405,7 @@ footer {
         justify-content: space-between;
         width: 100%;
     }
+
     nav {
         width: 45%;
     }
@@ -463,9 +464,11 @@ footer {
     header h2 {
         text-align: center;
         font-size: 30px;
-        width: 35%;
+        width: 45%;
+        height: auto;
         line-height: 190%;
         color: #767670; 
+        padding-left: 5%;
     }
 
     header img {
@@ -685,8 +688,6 @@ footer {
         }
 
     /*HEADER IMG*/
-
-    
 
     header img {
         display: block;
