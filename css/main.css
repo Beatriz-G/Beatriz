@@ -49,7 +49,7 @@ nav ul li a {
     text-transform: uppercase;
     text-decoration: none;
     font-size: 15px;
-    color: plum;
+    color: rgb(221, 121, 221);
 }
 
 .welcome {
@@ -428,7 +428,7 @@ footer {
         text-transform: uppercase;
         text-decoration: none;
         font-size: 18px;
-        color: plum;
+        color: rgb(221, 121, 221);;
         justify-content: space-around;
         width: 100%;
     }
@@ -650,20 +650,23 @@ footer {
     }
 
     header h1 {
-        font-size: 45px;
+        font-size: 55px;
         width: 40%;
         padding-bottom: 20px;
         padding-left: 7%;
-        
     }
 
     header nav ul {
         justify-content: space-evenly;
-        font-size: 10px;
         padding-right: 17%;
         padding-bottom: 10px;
         padding-top: 55px;
-        
+    }
+
+    nav ul li a {
+        text-transform: uppercase;
+        text-decoration: none;
+        font-size: 10px;
     }
 
     .img-h2 {
@@ -701,17 +704,17 @@ footer {
         
     }
 
-    /*PROJECTS*/
-
-    .project-piece {
-        width: 25%;
-    }
-
     #about h2,
     #projects h2,
     #skills-tools h2, 
     #contact h2 {
-        font-size: 60px;
+        font-size: 45px;
+    }
+
+    /*PROJECTS*/
+
+    .project-piece {
+        width: 25%;
     }
 
     /*CONTACT ME*/
