@@ -645,6 +645,10 @@ footer {
 @media screen and (min-width: 1200px) {
     
     /*HEADER*/
+    .full-width {
+        width: 90%;
+    }
+
     header h1 {
         font-size: 45px;
         width: 40%;
