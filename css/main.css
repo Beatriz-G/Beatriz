@@ -27,7 +27,7 @@ body {
     color: white; /* Text color */
     cursor: pointer; /* Add a mouse pointer on hover */
     padding: 15px; /* Some padding */
-    border-radius: 80%; /* Rounded corners */
+    border-radius: 90%; /* Rounded corners */
     font-size: 18px; /* Increase font size */
 }
   
@@ -351,6 +351,7 @@ footer {
     transform: translate(-50%, -50%);
     -ms-transform: translate(-50%, -50%);
     font-family: 'Emblema One', cursive;
+    cursor: default;
 }
 
 .email {
