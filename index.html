@@ -9,8 +9,25 @@
         <link rel="stylesheet" href="css/main.css">
         <link href="https://fonts.googleapis.com/css2?family=Emblema+One&family=Josefin+Sans:wght@500&family=Lily+Script+One&family=Pacifico&display=swap" rel="stylesheet">
         <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        
     </head>    
     <body>
+        <button onclick="topFunction()" id="myBtn" title="Go to top">Top</button> 
+        <script>
+            let mybutton = document.getElementById("myBtn");
+            window.onscroll = function() {scrollFunction()};
+            function scrollFunction() {
+                if (document.body.scrollTop > 20 || document.documentElement.scrollTop > 20) {
+                    mybutton.style.display = "block";
+                } else {
+                    mybutton.style.display = "none";
+                }
+            }
+            function topFunction() {
+            document.body.scrollTop = 0;
+            document.documentElement.scrollTop = 0;
+            }
+        </script>
         <header>
             <div class="full-width">
                 <h1>
@@ -33,6 +50,7 @@
                         <br>
                         I'm a Front End Web Developer <br>creating well-designed websites in Los Angeles! 
                     </h2> 
+                   
                 </div>     
             </div>
         </header>
