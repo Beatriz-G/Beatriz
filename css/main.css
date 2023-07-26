@@ -646,13 +646,15 @@ footer {
     
     /*HEADER*/
     .full-width {
-        width: 90%;
+        width: 85%;
     }
 
     header h1 {
         font-size: 45px;
         width: 40%;
         padding-bottom: 20px;
+        padding-left: 10%;
+        
     }
 
     header nav ul {
@@ -661,6 +663,7 @@ footer {
         padding-right: 30px;
         padding-bottom: 10px;
         padding-top: 55px;
+        
     }
 
     .img-h2 {
@@ -679,11 +682,11 @@ footer {
         padding: 10px;
         padding-left: 40px;
         width: 30%;
-        padding-left: 10%;
+        padding-left: 15%;
     }
 
     .welcome {
-        font-size: 55px;
+        font-size: 65px;
     }
 
     /*HEADER IMG*/
