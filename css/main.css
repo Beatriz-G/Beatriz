@@ -428,14 +428,28 @@ footer {
         width: 100%;
     }
 
-    nav {
-        width: 45%;
-    }
-
     header h1 {
         width: 45%;
         padding-top: 20px;
     }
+
+    nav {
+        width: 20%;
+    }
+
+    header nav ul {
+
+        
+    }
+
+
+
+    /*****
+
+    nav {
+        width: 45%;
+    }
+
 
     header nav ul {
         display: flex;
@@ -465,6 +479,8 @@ footer {
         font-family: 'Emblema One', cursive;
         line-height: 30px;
     }
+
+    *****/
 
     .img-h2 {
         justify-content: space-evenly;
