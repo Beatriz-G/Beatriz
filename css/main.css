@@ -431,17 +431,26 @@ footer {
     header h1 {
         width: 45%;
         padding-top: 20px;
-    }
-
-    nav {
-        width: 20%;
-    }
-
-    header nav ul {
-
+        padding-left: 30px;
+        line-height: 140%;
         
     }
 
+    nav {
+        width: 25%;
+    }
+
+    header nav ul {
+        list-style-type: none;
+        padding: 50px 100px 10px 10px;
+    }
+
+    header a:hover {
+        color: #fe7f9c;
+        font-size: 25px;
+        font-family: 'Emblema One', cursive;
+        
+    }
 
 
     /*****
@@ -449,7 +458,6 @@ footer {
     nav {
         width: 45%;
     }
-
 
     header nav ul {
         display: flex;
