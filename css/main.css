@@ -448,13 +448,10 @@ footer {
     header a:hover {
         color: #fe7f9c;
         font-size: 25px;
-        font-family: 'Emblema One', cursive;
-        
+        font-family: 'Emblema One', cursive;        
     }
 
-
     /*****
-
     nav {
         width: 45%;
     }
@@ -487,7 +484,6 @@ footer {
         font-family: 'Emblema One', cursive;
         line-height: 30px;
     }
-
     *****/
 
     .img-h2 {
@@ -702,9 +698,11 @@ footer {
         padding-left: 7%;
     }
 
+    nav {
+        width: 40%;
+    }
     header nav ul {
         justify-content: space-evenly;
-        padding-right: 17%;
         padding-bottom: 10px;
         padding-top: 55px;
     }
@@ -712,8 +710,47 @@ footer {
     nav ul li a {
         text-transform: uppercase;
         text-decoration: none;
-        font-size: 10px;
+        font-size: 75%;
     }
+
+
+
+    /*****
+    nav {
+        width: 45%;
+    }
+
+    header nav ul {
+        display: flex;
+        flex-wrap: wrap;
+        justify-content: space-around;
+        padding-right: 20px;
+        padding-top: 35px;
+    }
+
+    header nav ul li a {
+        text-transform: uppercase;
+        text-decoration: none;
+        font-size: 18px;
+        color: rgb(221, 121, 221);;
+        justify-content: space-around;
+        width: 100%;
+    }
+
+    header nav ul {
+        justify-content: space-evenly;   
+    }
+
+    header a:hover {
+        color: #fe7f9c;
+        font-size: 25px;
+        font-family: 'Emblema One', cursive;
+        line-height: 30px;
+    }
+    *****/
+
+
+
 
     .img-h2 {
         justify-content: space-evenly;
