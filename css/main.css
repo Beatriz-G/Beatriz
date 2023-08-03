@@ -747,7 +747,6 @@ footer {
 
     .about-me {
         width: 95%;
-        /*display: flex;*/
         justify-content: center;
         align-items: flex-start;
         flex-flow: row wrap;
@@ -763,7 +762,7 @@ footer {
         border-radius: 90%;
         border: double 12px #f0bad1;
         justify-content: space-evenly;
-        
+        flex-direction: column;
         margin-left: 6%;
         float: left;
         margin-right: 10px;
@@ -772,7 +771,7 @@ footer {
     
     .about-me p {
         text-align: right;
-        padding: 0 2%;
+        padding: 0 3%;
         line-height: 160%;
         font-size: 120%;
         
