@@ -697,14 +697,17 @@ footer {
     }
 
     header h1 {
-        font-size: 50px;
+        display: none;
+        /*font-size: 50px;
         width: 40%;
         padding-bottom: 20px;
         padding-left: 7%;
+        */
     }
 
     nav {
         width: 40%;
+        margin-left: 50%;
     }
     header nav ul {
         justify-content: space-evenly;
@@ -721,6 +724,11 @@ footer {
     }
 
     .img-h2 {
+        display: none;
+    }
+  
+/*
+    .img-h2 {
         justify-content: space-evenly;
         flex-direction: column;
         width: 100%;
@@ -729,16 +737,17 @@ footer {
         align-items: flex-start;
         flex-flow: row wrap;
     }
-
+*/
     header h2 {
         font-size: 45px;
         line-height: 150%;
-        width: 30%;
-        padding-left: 20%;
+        width: 80%;
+        text-align: left;
+        
     }
 
     .welcome {
-        font-size: 55px;
+        font-size: 65px;
     }
 
     header img {
