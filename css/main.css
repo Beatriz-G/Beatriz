@@ -45,6 +45,10 @@ header .full-width {
     width: 100%;
 }
 
+.desktop-header {
+    display: none;
+}
+
 header h1 {
     width: 95%;
     padding: 10px 5px;    
@@ -726,7 +730,37 @@ footer {
     .img-h2 {
         display: none;
     }
-  
+
+    .desktop-header {
+        justify-content: space-evenly;
+        flex-direction: column;
+        width: 100%;
+        display: flex;
+        align-items: flex-start;
+        flex-flow: row wrap;
+        margin-top: 10px;
+
+    }
+
+    .desktop-header  h2{
+        font-size: 60px;
+        text-align: left;
+        width: 100%;
+        padding-left: 10%;
+    
+    }
+
+    .welcome {
+        font-family: 'Emblema One', cursive;
+    }
+
+    .desktop-header h3 {
+        font-size: 90%;
+        width: 100%;
+        padding-left: 10%;
+        
+    }
+
 /*
     .img-h2 {
         justify-content: space-evenly;
@@ -737,7 +771,7 @@ footer {
         align-items: flex-start;
         flex-flow: row wrap;
     }
-*/
+
     header h2 {
         font-size: 45px;
         line-height: 150%;
@@ -745,6 +779,8 @@ footer {
         text-align: left;
         
     }
+*/
+    
 
     .welcome {
         font-size: 65px;
