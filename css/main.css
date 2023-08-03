@@ -743,21 +743,24 @@ footer {
     }
 
     .desktop-header  h2{
-        font-size: 60px;
+        font-size: 50px;
         text-align: left;
         width: 100%;
         padding-left: 10%;
+        text-align: right;
+        padding-right: 180px;
     
     }
 
     .welcome {
         font-family: 'Emblema One', cursive;
+        
     }
 
     .desktop-header h3 {
         font-size: 90%;
         width: 100%;
-        padding-left: 10%;
+        padding-left: 75%;
         
     }
 
