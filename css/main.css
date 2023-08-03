@@ -745,17 +745,38 @@ footer {
         display: none;
     }
 
+
+   
     .about-me img {
         display: block;
-        width: 25%;
+        width: 30%;
         height: auto;
         border-radius: 80%;
         border: double 12px #f0bad1;
         justify-content: space-evenly;
         flex-direction: column;
         margin-left: 6%;
-
     }
+
+    .about-me {
+        width: 95%;
+        display: flex;
+        justify-content: center;
+        align-items: flex-start;
+        flex-flow: row wrap;
+        margin: 25px auto;
+    }
+    
+    .about-me p {
+        text-align: center;
+        width: 25%;
+        padding: 0 2%;
+        line-height: 150%;
+        font-weight: 900;
+        color: #767670; 
+    }
+
+
     /*HEADER IMG
     header img {
         display: block;
