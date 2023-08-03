@@ -131,6 +131,10 @@ header img {
     margin: 0 15px;
 }
 
+.about-me img {
+    display: none;
+}
+
 /**PROJECTS**/
 
 #projects {
