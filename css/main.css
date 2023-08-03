@@ -745,19 +745,6 @@ footer {
         display: none;
     }
 
-
-   
-    .about-me img {
-        display: block;
-        width: 30%;
-        height: auto;
-        border-radius: 80%;
-        border: double 12px #f0bad1;
-        justify-content: space-evenly;
-        flex-direction: column;
-        margin-left: 6%;
-    }
-
     .about-me {
         width: 95%;
         display: flex;
@@ -766,14 +753,25 @@ footer {
         flex-flow: row wrap;
         margin: 25px auto;
     }
+   
+    .about-me img {
+        display: block;
+        width: 25%;
+        height: auto;
+        border-radius: 20%;
+        border: double 12px #f0bad1;
+        justify-content: space-evenly;
+        flex-direction: column;
+        margin-left: 6%;
+    }
     
     .about-me p {
         text-align: center;
-        width: 25%;
+        width: 35%;
         padding: 0 2%;
         line-height: 150%;
         font-weight: 900;
-        color: #767670; 
+       
     }
 
 
