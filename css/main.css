@@ -737,7 +737,11 @@ footer {
         font-size: 55px;
     }
 
-    /*HEADER IMG*/
+    header img {
+        display: none;
+    }
+
+    /*HEADER IMG
 
     header img {
         display: block;
@@ -750,7 +754,7 @@ footer {
         margin-left: 6%;
         
     }
-
+*/
     #about h2,
     #projects h2,
     #skills-tools h2, 
