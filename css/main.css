@@ -770,8 +770,11 @@ footer {
         width: 35%;
         padding: 0 2%;
         line-height: 150%;
-        font-weight: 900;
-       
+        
+    }
+     
+    .lower-p {
+        width: 95%;
     }
 
 
