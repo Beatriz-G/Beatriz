@@ -759,8 +759,8 @@ footer {
 
     .desktop-header h3 {
         font-size: 90%;
-        width: 100%;
-        padding-left: 75%;
+        padding-left: 60%;
+        font-size: 30px;
         
     }
 
