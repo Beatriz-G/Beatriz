@@ -741,8 +741,18 @@ footer {
         display: none;
     }
 
-    /*HEADER IMG
+    .about-me img {
+        display: block;
+        width: 25%;
+        height: auto;
+        border-radius: 80%;
+        border: double 12px #f0bad1;
+        justify-content: space-evenly;
+        flex-direction: column;
+        margin-left: 6%;
 
+    }
+    /*HEADER IMG
     header img {
         display: block;
         width: 25%;
@@ -752,9 +762,9 @@ footer {
         justify-content: space-evenly;
         flex-direction: column;
         margin-left: 6%;
-        
     }
 */
+
     #about h2,
     #projects h2,
     #skills-tools h2, 
