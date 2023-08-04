@@ -739,7 +739,6 @@ footer {
         align-items: flex-start;
         flex-flow: row wrap;
         margin-top: 10px;
-
     }
 
     .desktop-header  h2{
@@ -749,20 +748,54 @@ footer {
         padding-left: 10%;
         text-align: right;
         padding-right: 180px;
-    
     }
 
     .welcome {
         font-family: 'Emblema One', cursive;
-        
     }
 
-    .desktop-header h3 {
+    .location {
         font-size: 90%;
         padding-left: 60%;
         font-size: 30px;
-        
     }
+
+    /*falling hearts*/
+
+    #container {
+        min-width: 30%;
+        min-height: 30%;
+        backdrop-filter: blur(5px);
+        background: rgba(0, 0, 0, 0);
+        box-shadow: 5px 5px 5px 2px rgb(228, 189, 189);
+        border-radius: 20px;
+        z-index: 10;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        text-align: center;
+        font-size: 30px;
+        padding: 5px 10px;
+        font-family: "Poppins",sans-serif;
+    }
+    .fa-heart {
+        color: rgb(217, 135, 217);
+        font-size: 25px;
+        position: absolute;
+        animation: heartMove linear 1;
+        top: -10vh;
+        z-index: 0;
+    }
+    
+    @keyframes heartMove {
+        0%{
+            transform: translateY(-10vh) ;
+        }
+        100%{
+            transform: translateY(110vh) ;
+        }
+    }
+
 
 /*
     .img-h2 {
@@ -784,7 +817,6 @@ footer {
     }
 */
     
-
     .welcome {
         font-size: 65px;
     }
@@ -792,6 +824,8 @@ footer {
     header img {
         display: none;
     }
+
+    /*ABOUT ME*/
 
     .about-me {
         width: 95%;
