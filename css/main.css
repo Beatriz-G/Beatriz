@@ -747,7 +747,6 @@ footer {
 
     .desktop-header  h2{
         font-size: 50px;
-        text-align: left;
         width: 95%;
         text-align: left;
         padding-right: 180px;
@@ -760,7 +759,7 @@ footer {
 
     .location {
         font-size: 60%;
-        padding-left: 50%;
+        padding-right: 20%;
     }
 
     /*Vertical Scroll*/
@@ -768,7 +767,7 @@ footer {
     .vertical-scroll {
         margin: auto;
         padding-bottom: 5.3%;
-        width: 2%;
+        width: 5%;
         max-width: 15%;
         margin-right: 20%;
         display: inline-flex;
