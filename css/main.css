@@ -764,15 +764,16 @@ footer {
     }
 
     /*Vertical Scroll*/
-    
+
     .vertical-scroll {
         margin: auto;
         padding-bottom: 5%;
         width: 5%;
         max-width: 22%;
-        margin-right: 20%;
+        margin-right: 15%;
         display: inline-flex;
         text-align: right;
+        overflow-y: auto;
     }
 
     .vertical-scroll span{
