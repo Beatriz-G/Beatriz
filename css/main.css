@@ -756,7 +756,7 @@ footer {
 
     .location {
         font-size: 90%;
-        padding-left: 60%;
+        padding-left: 50%;
         font-size: 30px;
     }
 
@@ -766,7 +766,6 @@ footer {
         min-width: 30%;
         min-height: 30%;
         backdrop-filter: blur(5px);
-        background: rgba(0, 0, 0, 0);
         box-shadow: 5px 5px 5px 2px rgb(228, 189, 189);
         border-radius: 20px;
         z-index: 10;
@@ -774,9 +773,7 @@ footer {
         justify-content: center;
         align-items: center;
         text-align: center;
-        font-size: 30px;
-        padding: 5px 10px;
-        font-family: "Poppins",sans-serif;
+       
     }
     .fa-heart {
         color: rgb(217, 135, 217);
