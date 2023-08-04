@@ -765,9 +765,14 @@ footer {
 
     /*Vertical Scroll*/
     .vertical-scroll {
-        display: inline;
+        display: inline-flex;
         text-indent: 8px;
+        
+    padding: 0 10px;
+    position: relative;
+    width: 40%;
     }
+
     .vertical-scroll span{
         animation: topToBottom 12.5s linear infinite 0s;
         -ms-animation: topToBottom 12.5s linear infinite 0s;
