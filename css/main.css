@@ -766,11 +766,11 @@ footer {
     /*Vertical Scroll*/
     .vertical-scroll {
         display: inline-flex;
-        text-indent: 8px;
+        margin: 0 3%;
         
-    padding: 0 10px;
-    position: relative;
-    width: 40%;
+        padding-bottom: 5%;
+        width: 20%;
+
     }
 
     .vertical-scroll span{
