@@ -798,7 +798,7 @@ footer {
         -webkit-animation-delay: 10s;
     }
 
-    /*topToBottom Animation*/
+    /*Vertical-scroll Animation*/
     @-moz-keyframes topToBottom{
         0% { opacity: 0; }
         5% { opacity: 0; -moz-transform: translateY(-50px); }
