@@ -696,6 +696,7 @@ footer {
 @media screen and (min-width: 1200px) {
     
     /*HEADER*/
+
     .full-width {
         width: 85%;
     }
@@ -715,9 +716,9 @@ footer {
     }
     header nav ul {
         justify-content: space-evenly;
-        padding-bottom: 10px;
         padding-top: 60px;
         padding-right: 20px;
+        padding-bottom: 10px;
         padding-left: 90px; 
     }
 
@@ -739,25 +740,27 @@ footer {
         align-items: flex-start;
         flex-flow: row wrap;
         margin-top: 10px;
+        width: 100vw;
+        height: 100vh;
+        margin: 0px;
     }
 
     .desktop-header  h2{
         font-size: 50px;
         text-align: left;
-        width: 100%;
-        padding-left: 10%;
+        width: 95%;
         text-align: right;
         padding-right: 180px;
     }
 
     .welcome {
         font-family: 'Emblema One', cursive;
+        font-size: 65px;
     }
 
     .location {
-        font-size: 90%;
+        font-size: 60%;
         padding-left: 50%;
-        font-size: 30px;
     }
 
     /*falling hearts*/
@@ -773,7 +776,6 @@ footer {
         justify-content: center;
         align-items: center;
         text-align: center;
-       
     }
     .fa-heart {
         color: rgb(217, 135, 217);
@@ -814,10 +816,6 @@ footer {
     }
 */
     
-    .welcome {
-        font-size: 65px;
-    }
-
     header img {
         display: none;
     }
