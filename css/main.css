@@ -4,6 +4,7 @@ body {
     font-family: 'Josefin Sans', sans-serif;
     color: #4A4A45;
     font-size: 25px;
+    overflow-x: hidden;
 }
 
 /**GRID**/
@@ -735,6 +736,7 @@ footer {
         display: flex;
         align-items: flex-start;
         flex-flow: row wrap;
+        height: auto;
     }
 
     /*
