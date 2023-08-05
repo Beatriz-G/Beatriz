@@ -165,7 +165,7 @@ header img {
 
 .project-piece img {
     width: 95%;
-    border: 6px solid pink ;
+    border: 6px solid pink;
     border-radius: 20px;
 }
 
@@ -290,7 +290,7 @@ footer {
     padding: 10px 0;
     text-align: center;
     color: #fe7f9c;
-    border: solid 2px;
+    border: 2px solid;
 }
 
 .footer-container {
@@ -461,41 +461,6 @@ footer {
         font-size: 25px;
         font-family: 'Emblema One', cursive;        
     }
-
-    /*****
-    nav {
-        width: 45%;
-    }
-
-    header nav ul {
-        display: flex;
-        flex-wrap: wrap;
-        justify-content: space-around;
-        list-style-type: none;
-        padding-right: 20px;
-        padding-top: 35px;
-    }
-
-    header nav ul li a {
-        text-transform: uppercase;
-        text-decoration: none;
-        font-size: 18px;
-        color: rgb(221, 121, 221);;
-        justify-content: space-around;
-        width: 100%;
-    }
-
-    header nav ul {
-        justify-content: space-evenly;   
-    }
-
-    header a:hover {
-        color: #fe7f9c;
-        font-size: 25px;
-        font-family: 'Emblema One', cursive;
-        line-height: 30px;
-    }
-    *****/
 
     .img-h2 {
         justify-content: space-evenly;
