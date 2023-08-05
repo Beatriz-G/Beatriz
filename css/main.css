@@ -739,14 +739,6 @@ footer {
         height: auto;
     }
 
-    /*
-    margin-top: 10px;
-        height: 100vh;
-    width: 100vw;
-        height: 100vh;
-        margin: 0px;
-    */
-
     .desktop-header  h2{
         font-size: 50px;
         width: 90%;
@@ -779,7 +771,7 @@ footer {
         animation: topToBottom 12.5s linear infinite 0s;
         -ms-animation: topToBottom 12.5s linear infinite 0s;
         -webkit-animation: topToBottom 12.5s linear infinite 0s;
-        color: plum;
+        color: rgb(217, 138, 217);
         opacity: 0;
         overflow: hidden;
         position: absolute;
@@ -841,13 +833,14 @@ footer {
     /*FALLING HEARTSs*/
 
     .fa-heart {
-        color: rgb(217, 135, 217);
+        color: plum;
         font-size: 20px;
         position: absolute;
         animation: heartMove linear 1;
         top: -10vh;
         z-index: 0;
     }
+    /*rgb(217, 135, 217);*/
     
     @keyframes heartMove {
         0%{
