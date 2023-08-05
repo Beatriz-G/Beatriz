@@ -706,8 +706,8 @@ footer {
     }
 
     nav {
-        width: 40%;
-        margin-left: 60%;
+        width: 50%;
+        margin-left: 50%;
     }
 
     header nav ul {
@@ -731,15 +731,19 @@ footer {
     .desktop-header {
         justify-content: space-evenly;
         flex-direction: column;
-        width: 100%;
+        width: 90%;
         display: flex;
         align-items: flex-start;
         flex-flow: row wrap;
-        margin-top: 10px;
-        width: 100vw;
+    }
+
+    /*
+    margin-top: 10px;
+        height: 100vh;
+    width: 100vw;
         height: 100vh;
         margin: 0px;
-    }
+    */
 
     .desktop-header  h2{
         font-size: 50px;
@@ -778,21 +782,25 @@ footer {
         overflow: hidden;
         position: absolute;
     }
+
     .vertical-scroll span:nth-child(2){
         animation-delay: 2.5s;
         -ms-animation-delay: 2.5s;
         -webkit-animation-delay: 2.5s;
     }
+
     .vertical-scroll span:nth-child(3){
         animation-delay: 5s;
         -ms-animation-delay: 5s;
         -webkit-animation-delay: 5s;
     }
+
     .vertical-scroll span:nth-child(4){
         animation-delay: 7.5s;
         -ms-animation-delay: 7.5s;
         -webkit-animation-delay: 7.5s;
     }
+
     .vertical-scroll span:nth-child(5){
         animation-delay: 10s;
         -ms-animation-delay: 10s;
@@ -830,19 +838,9 @@ footer {
 
     /*FALLING HEARTSs*/
 
-    #container {
-        min-width: 30%;
-        min-height: 30%;
-        backdrop-filter: blur(5px);
-        box-shadow: 5px 5px 5px 2px rgb(228, 189, 189);
-        border-radius: 20px;
-        z-index: 10;
-        display: flex;
-        justify-content: center;
-    }
     .fa-heart {
         color: rgb(217, 135, 217);
-        font-size: 25px;
+        font-size: 20px;
         position: absolute;
         animation: heartMove linear 1;
         top: -10vh;
@@ -881,17 +879,17 @@ footer {
         border: double 12px #f0bad1;
         justify-content: space-evenly;
         flex-direction: column;
+        margin-top: 5%;
+        margin-right: 10px;
         margin-left: 6%;
         float: left;
-        margin-right: 10px;
-        margin-top: 5%;
     }
     
     .about-me p {
         text-align: right;
         padding: 0 3%;
         line-height: 160%;
-        font-size: 120%;   
+        font-size: 115%;   
     }
 
     #about h2,
