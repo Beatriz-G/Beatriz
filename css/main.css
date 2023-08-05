@@ -489,7 +489,7 @@ footer {
         width: 35%;
         height: auto;
         border-radius: 80%;
-        border: double 12px #f0bad1;
+        border: 12px double #f0bad1;
         justify-content: space-evenly;
         flex-direction: column;
     }
@@ -508,7 +508,8 @@ footer {
     }
 
     .project-piece img:hover{
-        border: double pink 15px; 
+        /*border: 15px solid pink; */
+        box-shadow:   10px 10px 5px rgb(216, 163, 216);
     }
 
     .skills-list:hover {
