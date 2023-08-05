@@ -703,18 +703,13 @@ footer {
 
     header h1 {
         display: none;
-        /*font-size: 50px;
-        width: 40%;
-        padding-bottom: 20px;
-        padding-left: 7%;
-        */
     }
 
     nav {
         width: 40%;
-        
         margin-left: 60%;
     }
+
     header nav ul {
         justify-content: space-evenly;
         padding-top: 60px;
@@ -772,7 +767,6 @@ footer {
         max-width: 15%;
         margin-right: 20%;
         display: inline-flex;
-       
     }
 
     .vertical-scroll span{
@@ -834,7 +828,7 @@ footer {
         100% { opacity: 0; }
     }
 
-    /*falling hearts*/
+    /*FALLING HEARTSs*/
 
     #container {
         min-width: 30%;
@@ -863,27 +857,6 @@ footer {
             transform: translateY(110vh) ;
         }
     }
-
-
-/*
-    .img-h2 {
-        justify-content: space-evenly;
-        flex-direction: column;
-        width: 100%;
-        display: flex;
-        justify-content: center;
-        align-items: flex-start;
-        flex-flow: row wrap;
-    }
-
-    header h2 {
-        font-size: 45px;
-        line-height: 150%;
-        width: 80%;
-        text-align: left;
-        
-    }
-*/
     
     header img {
         display: none;
@@ -898,7 +871,6 @@ footer {
         flex-flow: row wrap;
         margin: 25px auto;
         display: inline-block;
-
     }
    
     .about-me img {
@@ -919,24 +891,8 @@ footer {
         text-align: right;
         padding: 0 3%;
         line-height: 160%;
-        font-size: 120%;
-        
-        
+        font-size: 120%;   
     }
-
-
-    /*HEADER IMG
-    header img {
-        display: block;
-        width: 25%;
-        height: auto;
-        border-radius: 80%;
-        border: double 12px #f0bad1;
-        justify-content: space-evenly;
-        flex-direction: column;
-        margin-left: 6%;
-    }
-*/
 
     #about h2,
     #projects h2,
