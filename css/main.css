@@ -747,9 +747,9 @@ footer {
 
     .desktop-header  h2{
         font-size: 50px;
-        width: 95%;
+        width: 90%;
         text-align: left;
-        padding-right: 180px;
+        padding-left: 150px;
     }
 
     .welcome {
@@ -844,8 +844,6 @@ footer {
         z-index: 10;
         display: flex;
         justify-content: center;
-        align-items: center;
-        text-align: center;
     }
     .fa-heart {
         color: rgb(217, 135, 217);
