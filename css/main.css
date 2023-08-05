@@ -113,6 +113,10 @@ header img {
     flex-direction: column;
 }
 
+.script {
+    display: none;
+}
+
 /*****MAIN*****/
 
 /**ABOUT ME**/
@@ -508,12 +512,11 @@ footer {
     }
 
     .project-piece img:hover{
-        /*border: 15px solid pink; */
         box-shadow:   10px 10px 5px rgb(216, 163, 216);
     }
 
     .skills-list:hover {
-        color: plum;
+        color: rgb(216, 114, 216);
         font-size: 20px;
         font-weight: 400;
         padding-bottom: 60px;
