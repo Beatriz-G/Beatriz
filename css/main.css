@@ -697,8 +697,8 @@ footer {
     }
 
     header img {
-            display: none;
-        }
+        display: none;
+    }
 
     .desktop-header {
         justify-content: space-evenly;
