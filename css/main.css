@@ -673,7 +673,11 @@ footer {
     }
 
     header h1 {
-        display: none;
+        font-size: 30px;
+        width: 40%;
+        padding-bottom: 10px;
+        padding-right: 7%;
+        
     }
 
     nav {
