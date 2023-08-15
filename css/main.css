@@ -671,12 +671,11 @@ footer {
 
     .full-width {
         width: 85%;
-        
     }
 
     header h1 {
         font-size: 27px;
-        width: 35%;
+        width: 20%;
         padding-top: 4%;
         margin-left: 1%;
     }
