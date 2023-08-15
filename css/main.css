@@ -453,6 +453,7 @@ footer {
         width: 10%;
         margin-right: 100px;
         max-width: 50%;
+        line-height: 160%;
     }
 
     header nav ul {
@@ -670,37 +671,41 @@ footer {
 
     .full-width {
         width: 85%;
-    }
-
-    header h1 {
-        font-size: 25px;
-        width: 35%;
-        padding-top: 3%;
-        margin-right: 7%;
         
     }
 
-    nav {
+    header h1 {
+        font-size: 27px;
         width: 35%;
-         
+        padding-top: 4%;
+        margin-left: 1%;
+    }
+
+    nav {
+        width: 40%;
+        justify-content: space-around;
+        
     }
 
     header nav ul {
-        justify-content: space-evenly;
-      
-    
+        
+
     }
 
     nav ul li a {
         text-transform: uppercase;
         text-decoration: none;
-        font-size: 65%;
+        font-size: 70%;
+        margin: 0 0 0 90%;
 
     }
 
     header a:hover {
-        font-size: 25px;
+        font-size: 20px;
         text-transform: lowercase;
+        width: 100%;
+        margin: 0 100%;
+        
     }
 
     .img-h2 {
