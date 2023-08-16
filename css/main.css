@@ -592,19 +592,30 @@ footer {
         padding-left: 2%;
     }
 
-    #email-icon {
-        
-    }
+    .email {
+            display: none;
+        }
 
     /*Email Hover*/
 
     #email-icon {
         display: flex;
-        
-        font-size: 70%;
+        font-size: 90%;
         color: #fff;
+        background-color: plum;
+        border: none;
+        width: 40px;
+        height: 40px;
+        border-radius: 90%;
+        padding: 5px 5px;
+        
     }
 
+    .button::after {
+        padding-top: 20px;
+        color: green;
+
+    }
 
     /*
     .hovertext {
@@ -633,10 +644,6 @@ footer {
     .hovertext:hover:before {
         opacity: 1;
         visibility: visible;
-    }
-
-    .email {
-        display: none;
     }
 */
     
