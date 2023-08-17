@@ -872,7 +872,7 @@ footer {
         border: double 12px #f0bad1;
         flex-direction:column;
         margin-top: 3%;
-        margin-right: 3%;
+        margin-left: 5%;
         float: right;
     }
     
