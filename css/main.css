@@ -607,14 +607,18 @@ footer {
         width: 40px;
         height: 40px;
         border-radius: 90%;
-        padding: 5px 5px;
-        
+    
     }
 
-    .button::after {
-        padding-top: 20px;
-        color: green;
 
+    .fa-envelope {
+        padding: 7px 0 0 1px;
+        color: #ffdbe9;
+    }
+
+    #email-script {
+        color: purple;  
+        padding-top: 150px;
     }
 
     /*
@@ -700,26 +704,21 @@ footer {
 
     nav {
         width: 40%;
-
     }
 
     header nav ul {
         justify-content:space-between;
-      
     }
 
     nav ul li a {
         text-transform: uppercase;
         text-decoration: none;
         font-size: 70%;
-        
-    
     }
 
     header a:hover {
         font-size: 20px;
         text-transform: lowercase;
-        
     }
 
     .img-h2 {
@@ -871,19 +870,18 @@ footer {
         height: auto;
         border-radius: 90%;
         border: double 12px #f0bad1;
-        justify-content: space-evenly;
-        flex-direction: column;
-        margin-top: 5%;
-        margin-right: 10px;
-        margin-left: 6%;
-        float: left;
+        flex-direction:column;
+        margin-top: 3%;
+        margin-right: 3%;
+        float: right;
     }
     
     .about-me p {
-        text-align: right;
-        padding: 0 3%;
+        text-align: left;
+        padding-left: 3%;
         line-height: 160%;
-        font-size: 115%;   
+        font-size: 100%;   
+        width: 90%;
     }
 
     #about h2,
