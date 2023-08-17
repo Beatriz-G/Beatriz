@@ -427,7 +427,12 @@ footer {
 }
 
 .footer {
-    font-family: 'Lily Script One', cursive; 
+    color: #F9629F;
+    font-family: 'Lily Script One', cursive;
+    
+}
+
+.name {
     color: #F9629F;
 }
 
