@@ -460,8 +460,6 @@ footer {
     header nav ul {
         list-style-type: none;
         padding: 50px 90px 0 10px;
-        
-        
     }
 
     nav ul li a {
@@ -472,8 +470,7 @@ footer {
     header a:hover {
         color: #fe7f9c;
         font-size: 30px;
-        text-transform: lowercase;
-        /*font-family: 'Emblema One', cursive;    */    
+        text-transform: lowercase;   
     }
 
     .img-h2 {
@@ -720,13 +717,13 @@ footer {
     }
 
     nav ul li a {
-        text-transform: uppercase;
+        text-transform: lowercase;
         text-decoration: none;
-        font-size: 70%;
+        font-size: 90%;
     }
 
     header a:hover {
-        font-size: 20px;
+        font-size: 90%;
         text-transform: lowercase;
     }
 
