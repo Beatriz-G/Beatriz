@@ -1049,11 +1049,10 @@ footer {
         100% { opacity: 0; }
     } 
     
-    /*FALLING HEARTSs*/
+    /*FALLING HEARTS*/
+        .fa-heart {
+            display: none;
+        }
 
-    .fa-heart {
-        display: none;
-    }
-    
-}
+}   
 
