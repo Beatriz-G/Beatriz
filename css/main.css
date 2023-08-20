@@ -1017,42 +1017,44 @@ footer {
 
   @media (prefers-reduced-motion) {
     
-     /*Vertical-scroll Animation*/
+        /*Vertical-scroll Animation*/
 
-     @-moz-keyframes topToBottom{
-        0% { opacity: 0; }
-        5% { opacity: 0; -moz-transform: translateY( 0px); }
-        10% { opacity: 1; -moz-transform: translateY( 1px); }
-        25% { opacity: 1; -moz-transform: translateY( 1px); }
-        30% { opacity: 0; -moz-transform: translateY( 50px); }
-        80% { opacity: 0; }
-        100% { opacity: 0; }
-    }
-
-    @-webkit-keyframes topToBottom{
-        0% { opacity: 0; }
-        5% { opacity: 0; -webkit-transform: translateY( 0px); }
-        10% { opacity: 1; -webkit-transform: translateY( 1px); }
-        25% { opacity: 1; -webkit-transform: translateY( 1px); }
-        30% { opacity: 0; -webkit-transform: translateY( 50px); }
-        80% { opacity: 0; }
-        100% { opacity: 0; }
-    }
-
-    @-ms-keyframes topToBottom{
-        0% { opacity: 0; }
-        5% { opacity: 0; -ms-transform: translateY( 0px); }
-        10% { opacity: 1; -ms-transform: translateY( 1px); }
-        25% { opacity: 1; -ms-transform: translateY( 1px); }
-        30% { opacity: 0; -ms-transform: translateY( 50px); }
-        80% { opacity: 0; }
-        100% { opacity: 0; }
-    } 
-    
-    /*FALLING HEARTS*/
-        .fa-heart {
-            display: none;
+        @-moz-keyframes topToBottom{
+            0% { opacity: 0; }
+            5% { opacity: 0; -moz-transform: translateY( 0px); }
+            10% { opacity: 1; -moz-transform: translateY( 1px); }
+            25% { opacity: 1; -moz-transform: translateY( 1px); }
+            30% { opacity: 0; -moz-transform: translateY( 50px); }
+            80% { opacity: 0; }
+            100% { opacity: 0; }
         }
 
-}   
+        @-webkit-keyframes topToBottom{
+            0% { opacity: 0; }
+            5% { opacity: 0; -webkit-transform: translateY( 0px); }
+            10% { opacity: 1; -webkit-transform: translateY( 1px); }
+            25% { opacity: 1; -webkit-transform: translateY( 1px); }
+            30% { opacity: 0; -webkit-transform: translateY( 50px); }
+            80% { opacity: 0; }
+            100% { opacity: 0; }
+        }
 
+        @-ms-keyframes topToBottom{
+            0% { opacity: 0; }
+            5% { opacity: 0; -ms-transform: translateY( 0px); }
+            10% { opacity: 1; -ms-transform: translateY( 1px); }
+            25% { opacity: 1; -ms-transform: translateY( 1px); }
+            30% { opacity: 0; -ms-transform: translateY( 50px); }
+            80% { opacity: 0; }
+            100% { opacity: 0; }
+        } 
+        
+        /*FALLING HEARTS*/
+            .fa-heart {
+                display: none;
+            }
+         /*Finish slowing down the word animation on the 
+         accessibility feature*/
+        }
+
+} 
