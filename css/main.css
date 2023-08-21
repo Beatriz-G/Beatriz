@@ -779,6 +779,15 @@ footer {
         z-index: 0;
     }
 
+    @keyframes heartMove {
+            0%{
+                transform: translateY(-10vh) ;
+            }
+            100%{
+                transform: translateY(110vh) ;
+            }
+        }
+
     /*Vertical Scroll*/
 
     .vertical-scroll {
@@ -853,19 +862,7 @@ footer {
         30% { opacity: 0; -ms-transform: translateY(50px); }
         80% { opacity: 0; }
         100% { opacity: 0; }
-    } 
-    
-
-   
-    
-    @keyframes heartMove {
-        0%{
-            transform: translateY(-10vh) ;
-        }
-        100%{
-            transform: translateY(110vh) ;
-        }
-    }
+    }     
 
     /*ABOUT ME*/
 
