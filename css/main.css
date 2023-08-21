@@ -598,61 +598,9 @@ footer {
     }
 
     .email {
-        display: none;
+        display:flex;alkdfjadsjflkdjslkfj
     }
 
-    /*Email Hover*/
-
-    #email-icon {
-        display: flex;
-        font-size: 90%;
-        color: #fff;
-        background-color: plum;
-        border: none;
-        width: 40px;
-        height: 40px;
-        border-radius: 90%;
-    }
-
-    .fa-envelope {
-        padding: 7px 0 0 1px;
-        color: #ffdbe9;
-    }
-
-    #email-script {
-        color: purple;  
-        padding-top: 150px;
-    }
-
-    /*
-    .hovertext {
-        position: relative;
-        cursor: pointer;   
-    }
-
-    .hovertext:before {
-        content: attr(data-hover);
-        visibility: hidden;
-        opacity: 0;
-        width: 650%;
-        background-color: plum;
-        color: #fff;
-        text-align: left;
-        border-radius: 5px;
-        padding: 5px 5px;
-        transition: opacity 1s ease-in-out;
-        position: absolute;
-        font-size: 80%;
-        left: 0;
-        top: 110%;
-        z-index: 1;
-    }
-
-    .hovertext:hover:before {
-        opacity: 1;
-        visibility: visible;
-    }
-*/
     
 
     /*IMG OVERLAY*/
@@ -772,13 +720,13 @@ footer {
     }
 
     @keyframes heartMove {
-            0%{
-                transform: translateY(-10vh) ;
-            }
-            100%{
-                transform: translateY(110vh) ;
-            }
+        0%{
+            transform: translateY(-10vh) ;
         }
+        100%{
+            transform: translateY(110vh) ;
+        }
+    }
 
     /*Vertical Scroll*/
 
