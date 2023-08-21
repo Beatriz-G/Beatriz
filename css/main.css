@@ -1024,15 +1024,15 @@ footer {
         /*Vertical-scroll Animation*/
 
         .vertical-scroll span{
-            animation: topToBottom 24.5s linear infinite 0s;
-            -ms-animation: topToBottom 24.5s linear infinite 0s;
-            -webkit-animation: topToBottom 24.5s linear infinite 0s;
+            animation: topToBottom 25s linear infinite 0s;
+            -ms-animation: topToBottom 25s linear infinite 0s;
+            -webkit-animation: topToBottom 25s linear infinite 0s;
         }
 
         .vertical-scroll span:nth-child(2){
-            animation-delay: 4.5s;
-            -ms-animation-delay: 4.5s;
-            -webkit-animation-delay: 4.5s;
+            animation-delay: 5s;
+            -ms-animation-delay: 5s;
+            -webkit-animation-delay: 5s;
         }
     
         .vertical-scroll span:nth-child(3){
