@@ -1017,6 +1017,11 @@ footer {
 
   @media (prefers-reduced-motion) {
     
+        /*FALLING HEARTS*/
+        .fa-heart {
+            display: none;
+        }
+  
         /*Vertical-scroll Animation*/
 
         @-moz-keyframes topToBottom{
@@ -1049,12 +1054,11 @@ footer {
             100% { opacity: 0; }
         } 
         
-        /*FALLING HEARTS*/
-            .fa-heart {
-                display: none;
-            }
-         /*Finish slowing down the word animation on the 
-         accessibility feature*/
+        
+
+
+
+
         }
 
 } 
