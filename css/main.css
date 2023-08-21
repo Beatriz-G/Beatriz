@@ -372,6 +372,8 @@ footer {
     cursor: default;
 }
 
+/*Emai*/
+
 .email {
     text-align: center;
     font-size: 20px;
@@ -598,10 +600,8 @@ footer {
     }
 
     .email {
-        display:flex;alkdfjadsjflkdjslkfj
+        text-align: center;
     }
-
-    
 
     /*IMG OVERLAY*/
 
@@ -905,10 +905,18 @@ footer {
         left: 60%;
     }
 
-    .email {
-       display: none;
-    }
+    /*EMAIL*/
 
+    .email {
+       background: none;
+       text-align: right;
+       font-size: 20px;
+       padding: 30px 0;
+       color:#4A4A45; 
+       margin: 10px 0;
+       align-items: column;
+    }
+    
     /*ICONS*/
 
     .icons {
@@ -919,7 +927,7 @@ footer {
         justify-content: space-evenly;
         align-items: center;
         gap: 40px;
-        margin: 10px 80px;
+        margin: 50px 80px;
     }
 
     .icons h3 {
