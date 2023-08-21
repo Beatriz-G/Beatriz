@@ -767,6 +767,18 @@ footer {
         padding-right: 20%;
     }
 
+    /*FALLING HEARTSs*/
+
+    .fa-heart {
+        display:initial;
+        color: plum;
+        font-size: 20px;
+        position: absolute;
+        animation: heartMove linear 1;
+        top: -10vh;
+        z-index: 0;
+    }
+
     /*Vertical Scroll*/
 
     .vertical-scroll {
@@ -844,17 +856,7 @@ footer {
     } 
     
 
-    /*FALLING HEARTSs*/
-
-    .fa-heart {
-        display:initial;
-        color: plum;
-        font-size: 20px;
-        position: absolute;
-        animation: heartMove linear 1;
-        top: -10vh;
-        z-index: 0;
-    }
+   
     
     @keyframes heartMove {
         0%{
