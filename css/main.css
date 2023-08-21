@@ -1006,7 +1006,7 @@ footer {
         padding-left: 2%;
     }
 
-  @media (prefers-reduced-motion) {
+    @media (prefers-reduced-motion) {
     
         /*FALLING HEARTS*/
         .fa-heart {
@@ -1081,10 +1081,6 @@ footer {
         .project-piece img:hover{
             box-shadow: none;
         }
-
-
-
-
     }
 
 } 
