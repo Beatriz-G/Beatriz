@@ -915,8 +915,16 @@ footer {
         margin-bottom: 10%;
         color:#4A4A45; 
         display: flex;
+        display: none;
     }
     
+    .email-desktop {
+        text-align: center;
+        margin-bottom: 180px;
+        margin-right: 100px;
+    }
+
+
     /*ICONS*/
 
     .icons {
