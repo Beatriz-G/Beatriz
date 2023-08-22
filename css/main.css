@@ -910,9 +910,10 @@ footer {
         display: none;
     }
 
-   .button {
+    .emaild {
        align-items: center;
-       margin-left: 40%;
+       background-color: plum;
+       border: none;
    }
 
     #desktop-email {
@@ -920,9 +921,11 @@ footer {
         width: 25%;
         text-align: center;
         padding: 15px 0;
+        height: 100%;
         
     }
     
+
     
     /*ICONS*/
 
