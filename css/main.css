@@ -916,7 +916,7 @@ footer {
         background-color: none;
         padding: 10px;
         border-radius: 10px;
-        padding-top: 20%;
+        align-items: flex;
     }
     
     /*ICONS*/
