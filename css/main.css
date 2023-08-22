@@ -906,8 +906,9 @@ footer {
 
     /*EMAIL*/
 
-    .email {
-        display: ;
+    .email p {
+        text-align: right;
+        font-size: 60%;
     }
 
     
