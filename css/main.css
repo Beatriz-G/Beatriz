@@ -910,12 +910,14 @@ footer {
         display: none;
     }
 
-    .emaild {
+    .email-button {
        align-items: center;
        background-color: plum;
        border: none;
+       border-radius: 90%;
    }
 
+    /*
     #desktop-email {
         background-color: plum;
         width: 25%;
@@ -924,7 +926,7 @@ footer {
         height: 100%;
         
     }
-    
+    */
 
     
     /*ICONS*/
