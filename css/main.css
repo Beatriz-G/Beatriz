@@ -911,11 +911,7 @@ footer {
     }
 
     .desktop-email {
-        height: auto;
-        display: flex;
-        justify-content: space-evenly;
-        align-items: center;
-        margin: 0 0 5px 40px;
+        margin-right: 100%;
 
     }
     
