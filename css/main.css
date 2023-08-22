@@ -909,15 +909,18 @@ footer {
     .email {
         display: none;
     }
-    
-    .email-desktop {
-        text-align: center;
-        margin-bottom: 70px;
-        margin-left: 40%;
-        margin-top: 2px;
-        line-height: 150%;
-    }
 
+    .desktop-email {
+        height: auto;
+        display: flex;
+        justify-content: space-evenly;
+        align-items: center;
+        margin: 0 0 5px 40px;
+
+    }
+    
+    
+    
     /*ICONS*/
 
     .icons {
@@ -951,11 +954,6 @@ footer {
         margin-left: 50px;
         padding-bottom: 70px;
         padding-left: 60px;
-    }
-
-    .hovertext:before {
-        width: 700%;
-        padding: 7px 5px 5px 5px; 
     }
 
     .icon-links a {
