@@ -908,9 +908,16 @@ footer {
 
     .email p {
         text-align: right;
-        font-size: 60%;
+        font-size: 70%;
+        
     }
 
+    .email {
+        background-color: none;
+        padding: 10px;
+        border-radius: 10px;
+        padding-top: 20%;
+    }
     
     /*ICONS*/
 
