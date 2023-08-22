@@ -907,26 +907,8 @@ footer {
     /*EMAIL*/
 
     .email {
-        display: none;
+        display: ;
     }
-
-    .email-button {
-       align-items: center;
-       background-color: plum;
-       border: none;
-       border-radius: 90%;
-   }
-
-    /*
-    #desktop-email {
-        background-color: plum;
-        width: 25%;
-        text-align: center;
-        padding: 15px 0;
-        height: 100%;
-        
-    }
-    */
 
     
     /*ICONS*/
