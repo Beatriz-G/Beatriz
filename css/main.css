@@ -910,11 +910,18 @@ footer {
         display: none;
     }
 
-    .desktop-email {
-        margin-right: 100%;
+   .button {
+       align-items: center;
+       margin-left: 40%;
+   }
 
+    #desktop-email {
+        background-color: plum;
+        width: 25%;
+        text-align: center;
+        padding: 15px 0;
+        
     }
-    
     
     
     /*ICONS*/
