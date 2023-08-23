@@ -917,6 +917,8 @@ footer {
         padding: 10px;
         border-radius: 10px;
         align-items: flex;
+        margin-bottom: 10%;
+        margin-left: 10%;
     }
     
     /*ICONS*/
@@ -950,8 +952,8 @@ footer {
         font-size: 110%;
         gap: 40px;
         margin-left: 50px;
-        padding-bottom: 70px;
-        padding-left: 60px;
+        padding-bottom: 5px;
+      
     }
 
     .icon-links a {
