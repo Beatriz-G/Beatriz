@@ -906,20 +906,16 @@ footer {
 
     /*EMAIL*/
 
-    .email p {
-        text-align: right;
-        font-size: 70%;
-        
-    }
-
     .email {
-        background-color: none;
+        background-color: #DDA0DD;
         padding: 10px;
         border-radius: 10px;
         align-items: flex;
         margin-bottom: 10%;
         margin-left: 45%;
         position: absolute;
+        color: #F9DBE9;
+        font-size: 90%;
     }
     
     /*ICONS*/
@@ -952,7 +948,7 @@ footer {
         justify-content: center;
         align-items: center;
         font-size: 110%;
-        gap: 40px;
+        gap: 47px;
         margin-left: 50px;
         padding-bottom: 5px;
       
