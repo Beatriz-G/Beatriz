@@ -376,15 +376,11 @@ footer {
 
 .email {
     text-align: center;
-    font-size: 20px;
+    font-size: 25px;
     background: rgb(220, 176, 220);
     padding: 30px 0;
     color:#4A4A45; 
     margin: 10px 0;
-}
-
-#email-icon {
-    display: none;
 }
 
 /**Social Icons**/
@@ -593,14 +589,10 @@ footer {
         color: #ffdbe9;
         text-align: center;
     }
-    
-    .icon-links a {
-        padding-top: 14%;
-        padding-left: 2%;
-    }
 
     .email {
         text-align: center;
+        font-size: 100%;
     }
 
     /*IMG OVERLAY*/
@@ -951,7 +943,6 @@ footer {
         gap: 47px;
         margin-left: 50px;
         padding-bottom: 5px;
-      
     }
 
     .icon-links a {
