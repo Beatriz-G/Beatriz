@@ -429,7 +429,7 @@ footer {
 }
 
 .footer {
-    color: #B300B3;
+    color: #CF2A54;
     font-family: 'Lily Script One', cursive;   
 }
 
@@ -989,7 +989,6 @@ footer {
             -webkit-animation-delay: 20s;
         }
         
-
         @-moz-keyframes topToBottom{
             0% { opacity: 0; }
             5% { opacity: 0; -moz-transform: translateY( 0px); }
