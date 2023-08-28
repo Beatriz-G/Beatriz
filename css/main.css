@@ -703,7 +703,7 @@ footer {
 
     .fa-heart {
         display:initial;
-        color: plum;
+        color: rgba(222, 120, 120, 0.862);
         font-size: 20px;
         position: absolute;
         animation: heartMove linear 1;
