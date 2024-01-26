@@ -1,0 +1,282 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <title>Beatriz | Desarollador FrontEnd</title>
+        <meta charset="UTF-8">
+        <script src="https://kit.fontawesome.com/531ba33c21.js" crossorigin="anonymous"></script>
+        <link rel="stylesheet" href="css/normalize.css">
+        <link rel="stylesheet" href="css/main.css">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <meta name="robots" content="noindex">
+        <link href="https://fonts.googleapis.com/css2?family=Lilita+One&family=Lobster+Two:ital@1&family=Playfair+Display&family=Sansita&display=swap" rel="stylesheet">
+    </head>    
+    <body>
+        <button onclick="topFunction()" id="myBtn" title="Back to top"><i class="fa-solid fa-arrow-up" style="color: #da43e5;"></i></button>
+        <script>
+            let mybutton = document.getElementById("myBtn");
+            window.onscroll = function() {scrollFunction()};
+            function scrollFunction() {
+            if (document.body.scrollTop > 20 || document.documentElement.scrollTop > 20) {
+                    mybutton.style.display = "block";
+                } else {
+                    mybutton.style.display = "none";
+                }
+            }
+            function topFunction() {
+                document.body.scrollTop = 0;
+                document.documentElement.scrollTop = 0;
+            }
+        </script>
+        <header>
+            <section id="opening">
+                <div class="full-width">
+                    <div class="navigation">
+                        <h1>Beatriz Guerrero</h1> 
+                        <nav>
+                            <ul>
+                                <li><a href="#about">✨ Sobre Mí</a></li>
+                                <li><a href="#projects">✨ Proyectos</a></li>
+                                <li><a href="#skills">✨ Habilidades</a></li>
+                                <li><a href="#contact">✨ Contactar</a></li>
+                            </ul>
+                        </nav>  
+                    </div>
+                    <div class="welcome">
+                        <img src="img/beatriz.jpg" alt="Beatriz with purple flowers in back">
+                        <h1>
+                            Bienvenidos a mi pagina!
+                            <br>
+                            Yo soy Beatriz, 
+                            Desarrolladora Frontend <br>y tu nueva amiga!
+                        </h1>
+                        <h2>
+                            <i class="fa-solid fa-location-dot"></i>
+                            Los Angeles
+                        </h2>
+                    </div>
+                </div> 
+            </section>
+        </header>
+        <main>
+            <section id="about">
+                <div class="full-width">
+                    <h1>Todo Sobre Beatriz</h1>
+                    <p class="p1">Hola, yo soy Beatriz. Desarrolladora Frontend, cocinera, y panadera... 
+                        y fastidiosa <i>según</i> mis hermanas. Me puedes encontrar en la cocina o en 
+                        la computadora. Me paso los días haciendo lo que me gusta, buscando recetas 
+                        o codificaciones nuevas.
+                    </p>
+                    <p class="p2">    
+                        Usando los lenguajes basicos de HTML y CSS, puedo transformar ideas a paginas. 
+                        Agregando JavaScript o React, puedo modificar tu pagina web al sitio de tus sueños. 
+                        Vivimos en tiempos donde dependemos de nuestros telefonos y computadoras más y más, 
+                        por eso mi meta es crear paginas que son accessibles para todos, faciles 
+                        de entender e usar, y ✨bonitas✨.
+                    </p>
+                    <p class="p3">
+                        En la cocina, me encanta preparar unas enchiladas verdes, un esquite rapidito o 
+                        unas costillas con bbq cocinadas a fuego lento. Pero si prefieres 
+                        algo dulce, el pastel de chocolate me queda riquisimo! Entre más 
+                        complicada la receta, más gusto me da hacerla.
+                    </p>
+                </div>
+            </section>
+            <section id="projects">
+                <div class="full-width">
+                    <h1>
+                        Proyectos
+                    </h1>
+                    <div class="project-sections">
+                        <div class="project-piece">
+                            <h3>
+                                Guess The Word Game
+                            </h3>
+                            <a href="https://beatriz-g.github.io/Guess-The-Word-Main/" target="_blank">
+                                <img src="img/guess-the-word-game.png" alt="Guess the Word Game">
+                            </a>
+                            <p>
+                                Un juego donde adivinas la palabra, letra por letra. Si no adivinas
+                                la palabra despues de 8 turnos, piereds el juego. 
+                            </p>
+                            <a  href="https://beatriz-g.github.io/Guess-The-Word-Main/" target="_blank" class="project-button">
+                                Pagina en Vivo
+                            </a>      
+                            <p class="skills-list">
+                                JavaScript | CSS3 | HTML5 |<br> Manipulando el DOM
+                            </p>
+                        </div>
+                        <div class="project-piece">
+                            <h3>
+                                GitHub <br> Gallery
+                            </h3>
+                            <a href="https://beatriz-g.github.io/GitHub-Gallery-Main/" target="_blank">
+                                <img src="img/github-repo.png" alt="GitHub gallery">
+                            </a>
+                            <p>
+                                Visita mi pagina de GitHub! Usando la interfaz de programación de aplicaciones, puedes
+                                ver mis repositorios.
+                            </p>
+                            <a href="https://beatriz-g.github.io/GitHub-Gallery-Main/" target="_blank" class="project-button">
+                                Pagina en Vivo
+                            </a>
+                            <p class="skills-list">
+                                APIs | JavaScript | Manipulando el DOM
+                            </p>
+                        </div>
+                        <div class="project-piece">
+                            <h3>
+                                Sticky <br>Notes
+                            </h3>
+                            <a href="https://uu1yf3.csb.app/" target="_blank">
+                                <img src="img/sticky-notes.png" alt="Sticky Notes app">
+                            </a>
+                            <p>
+                                Aplicacion React donde puedes hacer, guardar y borrar notas.
+                            </p>
+                            <a href="https://uu1yf3.csb.app/" target="_blank" class="project-button">
+                                Pagina en Vivo
+                            </a>
+                            <p class="skills-list">
+                                Manipulando el DOM | JavaScript | ES6| Managing the Data Flow | React
+                            </p>
+                        </div>
+                        <div class="project-piece">
+                            <h3>
+                                Isaura's<br>Website
+                            </h3>
+                            <a href="https://beatriz-g.github.io/Isaura/index.html" target="_blank">
+                                <img src="img/isa-website.jpg" alt="Isa's website">
+                            </a>
+                            <p>
+                                Pagina hecha para mi hermana, Isaura. Queria una pagina que demuestra
+                                carerra y su vida personal. 
+                            </p>
+                            <a href="https://beatriz-g.github.io/Isaura/index.html" target="_blank" class="project-button">
+                                Pagina en Vivo 
+                            </a>
+                            <p class="skills-list">
+                                HTML5 | CSS3 | Media Queries | JavaScript           
+                            </p>
+                        </div>
+                        <div class="project-piece">
+                            <h3>
+                                Unplugged Retreat
+                            </h3>
+                            <a href="https://beatriz-g.github.io/Unplugged-Retreat-Main/" target="_blank">
+                                <img src="img/unplugged-retreat.png" alt="Unplugged Retreat">
+                            </a>
+                            <p>
+                                Pagina de diseño web adaptable que demuestra el uso de media queries.
+                            </p>
+                            <a href="https://beatriz-g.github.io/Unplugged-Retreat-Main/" target="_blank" class="project-button">
+                                Pagina en Vivo
+                            </a>
+                            <p class="skills-list">
+                                CSS3 | HTML5 | Media Queries | Responsive Typography 
+                            </p>
+                        </div>
+                    </div>
+                </div>
+            </section>
+            <section id="skills">
+                <div class="full-width">
+                    <h1>
+                        Habilidades y Herramientas
+                    </h1>
+                    <div class="skills-tools">
+                        <div class="skills">
+                             <ul>
+                                <li><mark>Manipulacion del DOM</mark></li>
+                                <li><mark>Control de Versiones</li>
+                                <li><mark>JavaScript</mark></li>
+                                <li><mark>Diseño Web Adaptable</li>
+                                <li><mark>Manejando el Flujo de Datos</mark></li>
+                            </ul>  
+                        </div>
+                        <div class="skills2">
+                            <ul>
+                                <li><mark>HTML5</mark></li>
+                                <li><mark>CSS3</mark></li>
+                                <li><mark>ES6</mark></li>
+                                <li><mark>APIs</mark></li>
+                                <li><mark>React</mark></li>
+                            </ul>  
+                        </div>
+                        <div class="tools">
+                            <ul>
+                                <li><mark>Git & the Command Line</mark></li>
+                                <li><mark>Chrome DevTools</mark></li>
+                                <li><mark>GitHub</mark></li>
+                                <li><mark>CodeSandBox</mark></li>
+                                <li><mark>Visual Studio Code</mark></li>
+                            </ul>
+                        </div>
+                    </div>
+                    <script>
+                        (function (document) {
+                            const mark = [...document.querySelectorAll('mark')];
+                            
+                            const observer = new IntersectionObserver(entries => {
+                                entries.forEach((entry) => {
+                                if (entry.intersectionRatio > 0) {
+                                    entry.target.style.animationPlayState = 'running';
+                                    observer.unobserve(entry.target);
+                                }
+                                });
+                            }, {
+                            threshold: 0.8
+                        });
+                        
+                        mark.forEach(mark => {
+                            observer.observe(mark);
+                        });
+                        })(document);
+                    </script>
+                </div>
+            </section>
+            <footer>
+                <section id="contact">
+                    <div class="full-width">
+                        <h1>
+                            Contáctame
+                        </h1>
+                    <div class="summary">
+                        <img src="img/oli-me.png" alt="Olivia and me">
+                        <p>
+                            Al navegar el mundo inmenso del código, he aprendido 
+                            que mi parte favorita es crear paginas de la nada... Crear, 
+                            cambiar, mover, destruir y finalizar paginas de web es 
+                            una experiencia increíble. 
+                        </p>
+                        <p>
+                            Espero trabajar con personas que creen que los sitios 
+                            de web pueden ser divertidos, <br>
+                            educacionales y accessibles a quien sea. 
+                            Pero sobre todo, que sean magicas!
+                        </p>
+                    </div>
+                    <div class="contact-links">
+                        <p class="email">
+                            beatrizgue20@gmail.com
+                        </p>  
+                        <p class="linkedin">
+                            <a href="https://www.linkedin.com/in/beatrizguerrero24" target="_blank" >
+                                LinkedIn
+                            </a>
+                        </p>
+                        <p class="github">
+                            <a href="https://github.com/Beatriz-G" target="_blank" > 
+                                GitHub
+                            </a>
+                        </p> 
+                    </div>
+                    <div class="final">
+                        <p>
+                            <span class="name">Beatriz Guerrero</span> 2023
+                        </p>
+                    </div>
+                </section>
+            </footer>
+        </main>
+    </body>
+</html>

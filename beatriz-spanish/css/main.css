@@ -1,0 +1,625 @@
+html {
+    scroll-behavior: smooth;
+}
+
+/*BODY*/
+
+body {
+    font-family: 'Sansita', sans-serif;
+    color: #3c1c1c;
+    font-size: 20px;
+    overflow-x: hidden;
+}
+
+.full-width {
+    width: 90%;
+    margin: 3% auto;
+    overflow: auto;
+    text-align: center;
+}
+
+/*BACK TO TOP ARROW*/
+
+#myBtn {
+    display: none;
+    position: fixed;
+    bottom: 80px;
+    right: 50px;
+    z-index: 99;
+    font-size: 28px;
+    border: none;
+    outline: none;
+    background-color: none;
+    color: white;
+    cursor: pointer;
+    padding: 15px;
+    border-radius: 4px;
+  }
+  
+#myBtn:hover {
+    background-color: rgba(85, 85, 85, 0.558);
+}
+
+/*OPENING*/
+
+.navigation h1 {
+    font-size: 150%;
+    text-align: center;  
+    width: auto;
+    color: rgb(251, 132, 154);
+    padding: 10% 0;
+    background-color: rgb(239, 242, 245);
+    font-family: 'Lilita One', cursive;
+}
+
+.nagivation nav {
+    text-decoration: none;
+}
+
+nav ul {
+    list-style-type: none;
+    width: 50%;
+    text-align: center;
+    padding-left: 25%;
+}
+
+nav ul li a {
+    text-transform: lowercase;
+    text-decoration: none;
+    font-size: 20px;
+    color: rgb(251, 132, 154);
+}
+
+.welcome {
+    text-align: center;
+    font-size: 65%;
+    background-color: rgb(245, 220, 239);
+    padding: 10% 5%;
+}
+
+header img {
+    display: block;
+    width: 70%;
+    height: auto;
+    border-radius: 80%;
+    border: double 9px #f0bad1;
+    justify-content: space-evenly;
+    flex-direction: column;
+    text-align: center;
+    margin: auto;
+    box-shadow: 17px 17px 20px rgb(230, 139, 230);
+}
+
+/*ABOUT*/
+
+#about h1 {
+    font-size: 140%;
+    text-align: center;  
+    width: auto;
+    color: rgb(251, 132, 154);
+    padding: 10% 0;
+    background-color: rgb(239, 242, 245);
+    font-family: 'Lilita One', cursive;
+}
+
+.p1, .p2, .p3 {
+    font-size: 95%;
+    width: auto;
+    padding: 10% 5%;
+    line-height: 140%;
+}
+
+.p1 {
+    background-color: rgb(244, 202, 209);
+}
+
+.p2 {
+    background-color: rgb(247, 217, 221);
+
+}
+ 
+.p3 {
+    background-color: rgb(248, 230, 233);
+}
+ 
+/*PROJECTS*/
+
+#projects h1 {
+    font-size: 140%;
+    text-align: center;  
+    width: auto;
+    color: rgb(251, 132, 154);
+    padding: 10% 0;
+    background-color: rgb(239, 242, 245);
+    font-family: 'Lilita One', cursive;
+}
+
+.project-piece {
+    width: 80%;
+    max-width: 800px;
+    height: 700px;
+    display: flex;
+    justify-content: space-evenly;
+    flex-direction: column;
+    align-items: center;
+    padding: 10px 20px;
+    border: 3px solid pink;
+    box-shadow: 7px 7px 10px rgb(235, 178, 235); 
+    background-color:rgb(238, 217, 234);
+}
+
+.project-piece h3 {
+    font-size: 120%;
+    padding: 5% 2%;
+    font-family: 'Inconsolata', monospace;
+    font-weight: 900;
+}
+
+.project-piece img {
+    width: 95%;
+    border: 6px solid pink;
+    border-radius: 20px;
+}
+
+.project-sections {
+    display: flex;
+    justify-content: center;
+    align-items: flex-start;
+    flex-flow: row wrap;
+    gap: 35px;
+    width: 100%;
+    margin: 25px auto;
+    padding-top: 30px;
+}
+
+.project-button {
+    width: 40%;
+    color: #4b2f4b;
+    padding: 10px 20px;
+    border-radius: 30px;
+    font-size: 20px;
+    border: 4px solid pink;
+    text-align: center;
+    cursor: pointer;
+    text-decoration: none;
+    font-family: 'Inconsolata', monospace;
+    box-shadow: 7px 7px 5px rgb(200, 123, 200);
+    background-color: rgb(239, 233, 240);
+}
+
+.project-button:hover {
+    background: rgba(238, 182, 182, 0.3);
+    color: rgb(104, 31, 89);
+    border: 4px solid pink;
+    font-weight: bolder;
+}
+
+.project-piece p {
+    font-size: 20px;
+    line-height: 28px;
+    padding: 10px 0;
+    font-weight: 800;
+}
+
+.project-piece .skills-list {
+    line-height: 120%;
+    font-size: 17px;
+}
+
+/*SKILLS*/
+
+#skills h1 {
+    font-size: 140%;
+    text-align: center;  
+    width: auto;
+    color: rgb(251, 132, 154);
+    padding: 10% 0;
+    background-color: rgb(239, 242, 245);
+    font-family: 'Lilita One', cursive;
+}
+
+.skills ul, 
+.skills2 ul, 
+.tools ul {
+    list-style-type: none;
+    width: 90%;
+    max-width: 200%;
+    height: 500%;
+    display: flex;
+    justify-content: space-evenly;
+    flex-direction: column;
+    align-items: center;
+    line-height: 40px;
+    padding: 0 10px;
+    font-size: 20px;
+}
+
+/*SKILLS ANIMATION*/
+
+mark {
+    --color1: rgba(238, 136, 228, 0.788);
+    --color2: rgb(248, 135, 225);
+    --bg-height: 20%;
+      
+    all: unset;
+    background-image: linear-gradient(var(--color1), var(--color2));
+    background-position: 0 100%;
+    background-repeat: no-repeat;
+    background-size: 0 var(--bg-height);
+    animation: highlight 4s 1 ease-out;
+    animation-fill-mode: forwards;
+    animation-play-state: paused;
+}
+  
+@keyframes highlight {
+    to {
+      background-size: 100% var(--bg-height);
+    }
+} 
+
+/*CONTACT*/
+
+#contact h1 {
+    font-size: 140%;
+    text-align: center;  
+    width: auto;
+    color: rgb(251, 132, 154);
+    padding: 10% 0;
+    background-color: rgb(239, 242, 245);
+    font-family: 'Lilita One', cursive;
+}
+
+.summary p {
+    font-size: 90%;
+    text-align: center;
+    width: auto;
+    display: flex;
+    padding: 10% 5%;
+    line-height: 35px;
+    background-color: #fad2e4;
+}
+
+.summary img {
+    width: 50%;
+    position: relative;
+    border-radius: 80%;
+    border: double 7px #f0bad1;
+    box-shadow: 15px 15px 20px rgb(230, 139, 230);
+}
+
+/*SOCIAL LINKS*/
+
+.contact-links {
+    display: flex;
+    justify-content: space-around;
+    text-align: center;
+    flex-direction: column;
+    padding-bottom: 30%;
+}
+
+.email {
+    font-size: 110%;
+    background: pink;
+    padding: 5% 3%;
+    color: black;
+}
+
+.linkedin {
+    font-size: 140%;
+    background-color: rgb(209, 209, 252);
+    padding: 5% 30%;
+    text-align:center;
+    color: rgb(77, 77, 234);
+    text-decoration: none;
+    font-family: 'Lobster Two', cursive;
+    letter-spacing: 2px;
+}
+
+.github {
+    font-size: 140%;
+    background-color: rgb(193, 244, 193);
+    padding: 5% 33%;
+    text-decoration: none;
+    color: rgb(45, 5, 5);
+    align-items: center;
+    font-family: 'Inconsolata', monospace;
+    letter-spacing: 2px;
+}
+
+.name {
+    color: rgb(240, 115, 136);
+}
+
+/*****TABLET STYLES*****/
+
+@media screen and (min-width: 760px)  {
+
+    /*OPENING*/
+
+    .navigation h1 {
+        font-size: 280%;
+        padding: 5% 2%;
+    }
+
+    .navigation nav {
+        width: 100;
+        display: block;
+    }
+
+    nav ul {
+        display: flex;
+        flex-wrap: wrap;
+        justify-content: space-around;
+        line-height: 210%;
+    }
+
+    nav ul li a {
+        margin: 0 15px;
+        font-size: 120%;
+    }
+
+    .welcome {
+        text-align: left;
+        padding: 5% 0;
+    }
+
+    .welcome h1 {
+        padding-left: 10%;
+        line-height: 150%;
+        font-size: 245%;
+        margin-right: 10%;
+    }
+
+    header img {
+        width: 20%;
+        border-radius: 10%;
+        float: left;
+        margin: 5% 8%;
+        box-shadow: 10px 10px 15px rgb(230, 139, 230);
+    }
+
+    /*ABOUT*/
+
+    #about h1 {
+        font-size: 250%;
+        padding: 5% 0;
+    }
+
+    .p1, .p2, .p3 {
+        font-size: 140%;
+        line-height: 160%;
+    }
+
+    /*PROYECTOS*/
+
+    #projects h1 {
+        font-size: 250%;
+        padding: 5% 0;
+    }
+
+    .project-piece {
+        height: 800px;
+    }
+
+    .project-piece h3 {
+        font-size: 180%;
+    }
+
+    .project-piece img {
+        width: 75%;
+    }
+
+    .project-button {
+        padding: 15px 20px;
+        font-size: 120%;
+    }
+
+    .project-piece p {
+        font-size: 120%;
+        width: 75%;
+    }
+
+    .project-piece .skills-list {
+        line-height: 150%;
+        font-size: 110%;
+        width: 80%;
+        padding-bottom: 15%;
+    }
+
+    /*SKILLS*/
+
+    #skills h1 {
+        font-size: 250%;
+        padding: 5% 0;
+    }
+
+    .skills ul, 
+    .skills2 ul, 
+    .tools ul {
+        font-size: 130%;
+    }
+
+    /*CONTACT*/
+
+    #contact h1 {
+        font-size: 250%;
+        padding: 5% 0;
+        margin-bottom: 10%;
+    }
+
+    .summary p {
+        font-size: 140%;
+        line-height: 160%;
+    }
+
+    /*SOCIAL LINKS*/
+    
+    .contact-links {
+        padding-bottom: 10%;
+    }
+    
+    .email, .linkedin, .github {
+        font-size: 140%;
+        margin: 5% 0;
+    }
+
+    .linkedin a, .github a {
+        color: black;
+        text-decoration: none;
+    }
+}
+
+/*****DESKTOP STYLES*****/
+
+@media screen and (min-width: 1024px)  {
+
+    /*OPENING*/
+
+     .navigation h1 {
+        font-size: 290%;
+        margin: 0;
+        padding: 2% 2%;
+    }
+   
+    .welcome {
+        padding: 2.5% 0;
+        height: auto;
+    }
+
+    .welcome h1 {
+        font-size: 300%;
+    }
+
+    header a:hover {
+        color:rgb(195, 7, 101);
+        text-transform: lowercase;
+    }
+
+    header img {
+        width: 15%;
+        border-radius: 10%;
+        display: block;
+        margin-bottom: 10%;
+        box-shadow: 17px 17px 20px rgb(230, 139, 230);
+    }
+
+    /*ABOUT*/
+
+    #about h1 {
+        font-size: 350%;
+    }
+
+    .p1, .p2, .p3 {
+        line-height: 190%;
+        padding: 5% 15%;
+    }
+
+    .p1:hover {
+        background-color:rgb(228, 171, 228);
+        color: black;
+    } 
+
+    .p2:hover {
+        background-color:rgb(246, 206, 246);
+        color: black;
+    }
+    
+    .p3:hover {
+        background-color:rgb(249, 222, 249);
+        color: black;
+    }
+     
+    /*PROYECTOS*/
+
+    #projects h1 {
+        font-size: 350%;
+    }
+
+    .project-piece {
+        width: 25%;
+        background-color: rgb(252, 230, 233);
+    }
+
+    .project-piece:hover {
+        background-color: rgb(244, 222, 244);
+    }
+
+    .project-button {
+        font-size: 100%;
+        background-color: rgb(244, 222, 244);
+        width: 60%;
+    }
+
+    /*SKILLS*/
+        
+    .skills ul, 
+    .skills2 ul, 
+    .tools ul {
+        display: flex;
+        justify-content: center;
+        align-items: flex-start;
+        flex-flow: row wrap;
+        gap: 35px;
+        width: 80%;
+        margin: 25px auto;
+    }
+
+    /*CONTACT*/
+
+    #contact h1 {
+        font-size: 350%;
+        margin-bottom: 5%;
+    }
+   
+    .summary p {
+        font-size: 130%;
+        padding: 3% 5%;
+        text-align: left;
+    }
+
+    .summary img {
+        width: 12%;
+        position: absolute;
+        border-radius: 10%;
+        border: double 9px #f0bad1;
+        box-shadow: 17px 17px 20px rgb(230, 139, 230);    
+        left: 75%;
+        margin-top: 9%;
+    }
+
+    /*SOCIAL LINKS*/
+
+    .contact-links {
+        display: flex;
+        justify-content: center;
+        align-items: flex-start;
+        flex-flow: row wrap;
+        background-color: #f9e8f0;
+        margin-top: 10%;
+        padding-bottom: 0;
+        
+    }
+
+    .contact-links p{
+        display: block;
+        padding: 0;
+    }
+
+    .email, .linkedin, .github {
+        font-family: 'Lilita One', cursive;
+        background-color: #f9e8f0;
+        font-size: 190%;
+        margin: 5% 4%;
+        text-align: left;
+    }
+
+    .linkedin a:hover, .github a:hover {
+        color: rgb(201, 70, 92);
+        text-decoration: none;
+    }
+
+    .final {
+        padding-top: 5%;
+        
+    }
+}
