@@ -38,23 +38,6 @@
                     </h2>  
                 </div>  
                 <div class="desktop-header">
-                    <script>
-                        const body = document.querySelector("body");
-                        function createHeart() {
-                            const heart = document.createElement("div");
-                            heart.className = "fas fa-heart";
-                            heart.style.left = (Math.random() * 100)+"vw";
-                            heart.style.animationDuration = (Math.random()*3)+2+"s"
-                            body.appendChild(heart);
-                        }
-                        setInterval(createHeart,100);
-                        setInterval(function name(params) {
-                                var heartArr = document.querySelectorAll(".fa-heart")
-                                if (heartArr.length > 200) {
-                                heartArr[0].remove()
-                            }
-                        },100)  
-                    </script>
                     <h2>
                         <span class="welcome">Bienvenidos.</span>
                         <br>
@@ -63,13 +46,8 @@
                             a Front End Web Developer 
                         <br>
                             creating websites that are
-                        <span class="vertical-scroll">
-                            <span>well-designed.</span>
-                            <span>magical.</span>
-                            <span>responsive.</span>
-                            <span>fun(ctional).</span>
-                            <span>engaging.</span>
-                        </span>
+
+                          fun(ctional).
                         <br>
                         <span class="location">
                             <i class="fa-solid fa-location-dot"></i>
