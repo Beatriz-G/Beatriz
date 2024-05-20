@@ -95,10 +95,6 @@ header img {
     flex-direction: column;
 }
 
-.fa-heart {
-    display: none;
-}
-
 /*****MAIN*****/
 
 /**ABOUT ME**/
@@ -676,103 +672,6 @@ footer {
         font-size: 60%;
         padding-right: 20%;
     }
-
-    /*FALLING HEARTSs*/
-
-    .fa-heart {
-        display:initial;
-        color: rgba(222, 120, 120, 0.862);
-        font-size: 20px;
-        position: absolute;
-        animation: heartMove linear 1;
-        top: -10vh;
-        z-index: 0;
-    }
-
-    @keyframes heartMove {
-        0%{
-            transform: translateY(-10vh) ;
-        }
-        100%{
-            transform: translateY(110vh) ;
-        }
-    }
-
-    /*Vertical Scroll*/
-
-    .vertical-scroll {
-        margin: auto;
-        padding-bottom: 60px;
-        width: 5%;
-        max-width: 15%;
-        margin-right: 20%;
-        display: inline-flex;
-    }
-
-    .vertical-scroll span{
-        animation: topToBottom 12.5s linear infinite 0s;
-        -ms-animation: topToBottom 12.5s linear infinite 0s;
-        -webkit-animation: topToBottom 12.5s linear infinite 0s;
-        color: #B300B3;
-        opacity: 0;
-        overflow: hidden;
-        position: absolute;
-    }
-
-    .vertical-scroll span:nth-child(2){
-        animation-delay: 2.5s;
-        -ms-animation-delay: 2.5s;
-        -webkit-animation-delay: 2.5s;
-    }
-
-    .vertical-scroll span:nth-child(3){
-        animation-delay: 5s;
-        -ms-animation-delay: 5s;
-        -webkit-animation-delay: 5s;
-    }
-
-    .vertical-scroll span:nth-child(4){
-        animation-delay: 7.5s;
-        -ms-animation-delay: 7.5s;
-        -webkit-animation-delay: 7.5s;
-    }
-
-    .vertical-scroll span:nth-child(5){
-        animation-delay: 10s;
-        -ms-animation-delay: 10s;
-        -webkit-animation-delay: 10s;
-    }
-
-    /*Vertical-scroll Animation*/
-    @-moz-keyframes topToBottom{
-        0% { opacity: 0; }
-        5% { opacity: 0; -moz-transform: translateY(-50px); }
-        10% { opacity: 1; -moz-transform: translateY(0px); }
-        25% { opacity: 1; -moz-transform: translateY(0px); }
-        30% { opacity: 0; -moz-transform: translateY(50px); }
-        80% { opacity: 0; }
-        100% { opacity: 0; }
-    }
-
-    @-webkit-keyframes topToBottom{
-        0% { opacity: 0; }
-        5% { opacity: 0; -webkit-transform: translateY(-50px); }
-        10% { opacity: 1; -webkit-transform: translateY(0px); }
-        25% { opacity: 1; -webkit-transform: translateY(0px); }
-        30% { opacity: 0; -webkit-transform: translateY(50px); }
-        80% { opacity: 0; }
-        100% { opacity: 0; }
-    }
-
-    @-ms-keyframes topToBottom{
-        0% { opacity: 0; }
-        5% { opacity: 0; -ms-transform: translateY(-50px); }
-        10% { opacity: 1; -ms-transform: translateY(0px); }
-        25% { opacity: 1; -ms-transform: translateY(0px); }
-        30% { opacity: 0; -ms-transform: translateY(50px); }
-        80% { opacity: 0; }
-        100% { opacity: 0; }
-    }     
 
     /*ABOUT ME*/
 
