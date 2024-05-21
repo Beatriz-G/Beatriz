@@ -197,26 +197,6 @@
                             </ul>
                         </div>
                     </div>
-                    <script>
-                        (function (document) {
-                            const mark = [...document.querySelectorAll('mark')];
-                            
-                            const observer = new IntersectionObserver(entries => {
-                                entries.forEach((entry) => {
-                                if (entry.intersectionRatio > 0) {
-                                    entry.target.style.animationPlayState = 'running';
-                                    observer.unobserve(entry.target);
-                                }
-                                });
-                            }, {
-                            threshold: 0.8
-                        });
-                        
-                        mark.forEach(mark => {
-                            observer.observe(mark);
-                        });
-                        })(document);
-                    </script>
                 </div>
             </section>
             <footer>
@@ -257,7 +237,7 @@
                     </div>
                     <div class="final">
                         <p>
-                            <span class="name">Beatriz Guerrero</span> 2023
+                            <span class="name">Beatriz Guerrero</span> | 2023
                         </p>
                     </div>
                 </section>
