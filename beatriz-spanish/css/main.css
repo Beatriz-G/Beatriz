@@ -18,28 +18,6 @@ body {
     text-align: center;
 }
 
-/*BACK TO TOP ARROW*/
-
-#myBtn {
-    display: none;
-    position: fixed;
-    bottom: 80px;
-    right: 50px;
-    z-index: 99;
-    font-size: 28px;
-    border: none;
-    outline: none;
-    background-color: none;
-    color: white;
-    cursor: pointer;
-    padding: 15px;
-    border-radius: 4px;
-  }
-  
-#myBtn:hover {
-    background-color: rgba(85, 85, 85, 0.558);
-}
-
 /*OPENING*/
 
 .navigation h1 {
