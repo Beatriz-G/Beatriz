@@ -343,7 +343,7 @@ footer {
     left: 55%;
     transform: translate(-50%, -50%);
     -ms-transform: translate(-50%, -50%);
-    font-family: 'Emblema One', cursive;
+    font-family: "Lilita One", sans-serif;
     cursor: default;
 }
 
@@ -409,7 +409,7 @@ footer {
 }
 
 .name {
-    color: #CF2A54;
+    color: #e57c8f;
 }
 
 /******MEDIA SCREEN TABLET*****/
@@ -448,9 +448,10 @@ footer {
     }
 
     header a:hover {
-        color: #CF2A54;
+        color: #ff8da1;
         font-size: 30px;
         text-transform: lowercase;   
+        text-decoration: underline;
     }
 
     .img-h2 {
