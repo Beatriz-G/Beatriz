@@ -36,7 +36,7 @@ header .full-width {
 header h1 {
     width: 95%;
     padding: 10px 5px;    
-    font-family: 'Emblema One', cursive;
+    font-family: "Lilita One", sans-serif;
     font-size: 55px;
     text-align: center;
     color: #CF2A54;
@@ -105,7 +105,7 @@ header img {
 
 #about h2 {
     font-size: 40px;
-    font-family: 'Emblema One', cursive;
+    font-family: "Lilita One", sans-serif;
     padding: 10px 0;
     text-align: center;
     color: #CF2A54;
@@ -132,7 +132,7 @@ header img {
 
 #projects h2 {
     font-size: 40px;
-    font-family: 'Emblema One', cursive;
+    font-family: "Lilita One", sans-serif;
     padding: 10px 0;
     text-align: center;
     color: #CF2A54;
@@ -141,7 +141,7 @@ header img {
 
 #projects h3 {
     font-size: 30px;
-    font-family: 'Emblema One', cursive;
+    font-family: "Lilita One", sans-serif;
     color: #CF2A54;
 }
 
@@ -204,7 +204,7 @@ header img {
 
 .project-piece .skills-header {
     font-size: 18px;
-    font-family: 'Emblema One', cursive;
+    font-family: "Lilita One", sans-serif;
     color: #CF2A54;
     border-bottom: 1px solid rgb(223, 130, 223);
     margin: 10px auto 0 auto;
@@ -223,7 +223,7 @@ header img {
 
 #skills-tools h2 {
     font-size: 40px;
-    font-family: 'Emblema One', cursive;
+    font-family: "Lilita One", sans-serif;
     padding: 10px 0;
     text-align: center;
     color: #CF2A54;
@@ -268,7 +268,7 @@ footer {
 
 #contact h2 {
     font-size: 40px;
-    font-family: 'Emblema One', cursive;
+    font-family: "Lilita One", sans-serif;
     padding: 10px 0;
     text-align: center;
     color: #CF2A54;
