@@ -39,7 +39,8 @@ header h1 {
     font-family: "Lilita One", sans-serif;
     font-size: 55px;
     text-align: center;
-    color: #CF2A54;
+    color: #ff8da1;
+    /*CF2A54*/
 }
 
 nav {
@@ -62,7 +63,7 @@ nav ul li a {
 }
 
 .welcome {
-    color: #CF2A54;
+    color: #ff8da1;
     font-size: 50px;
 }
 
@@ -108,7 +109,7 @@ header img {
     font-family: "Lilita One", sans-serif;
     padding: 10px 0;
     text-align: center;
-    color: #CF2A54;
+    color: #ff8da1;
     border: 2px solid;
 }
 
@@ -135,14 +136,14 @@ header img {
     font-family: "Lilita One", sans-serif;
     padding: 10px 0;
     text-align: center;
-    color: #CF2A54;
+    color: #ff8da1;
     border: 2px solid;
 }
 
 #projects h3 {
     font-size: 30px;
     font-family: "Lilita One", sans-serif;
-    color: #CF2A54;
+    color: #ff8da1;
 }
 
 .project-piece img {
@@ -203,9 +204,9 @@ header img {
 }
 
 .project-piece .skills-header {
-    font-size: 18px;
+    font-size: 78%;
     font-family: "Lilita One", sans-serif;
-    color: #CF2A54;
+    color: #ff8da1;
     border-bottom: 1px solid rgb(223, 130, 223);
     margin: 10px auto 0 auto;
 }
@@ -226,7 +227,7 @@ header img {
     font-family: "Lilita One", sans-serif;
     padding: 10px 0;
     text-align: center;
-    color: #CF2A54;
+    color: #ff8da1;
     border: solid 2px;
 }
 
@@ -271,7 +272,7 @@ footer {
     font-family: "Lilita One", sans-serif;
     padding: 10px 0;
     text-align: center;
-    color: #CF2A54;
+    color: #ff8da1;
     border: 2px solid;
 }
 
@@ -403,7 +404,7 @@ footer {
 }
 
 .footer {
-    color: #CF2A54;
+    color: #ff8da1;
     font-family: 'Lily Script One', cursive;   
 }
 
@@ -664,8 +665,8 @@ footer {
     }
 
     .welcome {
-        font-family: 'Emblema One', cursive;
-        font-size: 55px;
+        font-family: "Lilita One", sans-serif;
+        font-size: 46px;
     }
 
     .location {
